@@ -12,7 +12,9 @@ positioning hint). You should:
    can't find one, ask the user where the market docs live.
 2. Use the `competitor-research` skill to gather a profile.
 3. Write the profile to `<market>/competitors/<slug>.md` using the
-   shape of existing profiles in that folder (read one first).
+   shape of existing profiles in that folder (read one first). If the
+   folder is empty, fall back to the `competitors/_template.md` shape
+   that came with the workflow.
 4. Update `<market>/landscape.md` — add the competitor to the
    appropriate tier in the tier table, and to the threat assessment if
    warranted.

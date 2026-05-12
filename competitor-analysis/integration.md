@@ -49,9 +49,12 @@ Copy from the `competitors/_template.md` contextual file. Substitute:
 - `{{COMPETITOR_NAME}}` → the competitor's display name
 - `{{TODAY}}` → today's date in `YYYY-MM-DD`
 
-Pre-fill the **Positioning** section if you have grounded information
-(from the Palette MCP or general knowledge). Leave the other sections
-as the placeholder text so the user knows what to fill in.
+Pre-fill the **Positioning** section only if you have grounded,
+verifiable information (Palette MCP, or cited public sources you can
+point to). Don't fill it in from general knowledge — for competitive
+docs, an empty placeholder is better than a confident-sounding
+hallucination. Leave the other sections as the placeholder text so the
+user knows what to fill in.
 
 The slug should be a lowercase, hyphenated form of the name (`Microsoft
 365 Copilot` → `microsoft-365-copilot`).
