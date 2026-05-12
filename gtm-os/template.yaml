@@ -1,5 +1,6 @@
 name: GTM-OS
 slug: gtm-os
+type: folder
 version: 1.0.0
 author: Palette
 description: Your GTM as a file system — foundations, work, accounts, playbooks, and more.
