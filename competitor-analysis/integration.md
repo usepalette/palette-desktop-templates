@@ -36,7 +36,9 @@ For each file below, substitute the markers as listed.
 
 ### `<market>/landscape.md`
 
-Copy from the `landscape.md` contextual file. Substitute:
+Copy the contents of the inline `landscape.md` shown in the Contextual
+files section of this message — not any existing `landscape.md` in the
+project. Substitute:
 
 - `{{PRODUCT}}` → `<product>` (every occurrence)
 - `{{COMPETITORS}}` → a bulleted markdown list of the seeded competitors,
@@ -45,7 +47,8 @@ Copy from the `landscape.md` contextual file. Substitute:
 
 ### `<market>/competitors/<slug>.md` (one per seeded competitor)
 
-Copy from the `competitors/_template.md` contextual file. Substitute:
+Copy the contents of the inline `competitors/_template.md` shown in
+the Contextual files section of this message. Substitute:
 
 - `{{COMPETITOR_NAME}}` → the competitor's display name
 - `{{TODAY}}` → today's date in `YYYY-MM-DD`
