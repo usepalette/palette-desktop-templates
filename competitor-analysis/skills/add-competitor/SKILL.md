@@ -1,6 +1,9 @@
 ---
-description: Add a new competitor to this project's market landscape.
+name: add-competitor
+description: Add a new competitor to this project's market landscape. Use when the user asks to add, track, include, or start watching a new competitor — e.g. "add Acme to the landscape", "let's track Glean", "include Microsoft Copilot as a competitor", or when they invoke /add-competitor explicitly. Writes a per-competitor profile and updates the landscape doc.
 ---
+
+# Add Competitor
 
 Add a new competitor to the project's market landscape.
 

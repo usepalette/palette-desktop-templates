@@ -1,9 +1,10 @@
 # Competitor Analysis — install guide
 
 You are setting up structured competitor tracking in this project. The
-skill and slash command files are already placed under `.claude/` — you
-don't need to touch those. Your job is to gather the missing details from
-the user, then write the contextual files into the project.
+skill files are already placed for you in the appropriate provider
+directories — you don't need to touch them. Your job is to gather the
+missing details from the user, then write the contextual files into the
+project.
 
 ## 1. Where should the market folder live?
 
