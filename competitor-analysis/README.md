@@ -25,6 +25,9 @@ When you install this workflow, an agent will ask:
 2. What's your product/company name? (pulled from the Palette MCP if
    available, otherwise asked.)
 3. Which 2–5 competitors should we seed?
+4. Should we research the seeded competitors now, or leave them as
+   placeholders for later? (You can fill placeholders in any time with
+   `/add-competitor <name>`.)
 
 Then it writes everything into your project. Studio creates a checkpoint
 right before the install so you can revert from the timeline if you want
