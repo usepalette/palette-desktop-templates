@@ -1,10 +1,9 @@
 # Competitor Analysis — install guide
 
 You are setting up structured competitor tracking in this project. The
-skill files are already placed for you in the appropriate provider
-directories — you don't need to touch them. Your job is to gather the
-missing details from the user, then write the contextual files into the
-project.
+skill files are already placed for you under `.claude/skills/` — you
+don't need to touch them. Your job is to gather the missing details
+from the user, then write the contextual files into the project.
 
 ## 1. Where should the market folder live?
 
@@ -17,18 +16,16 @@ Call the chosen path `<market>/` for the rest of these instructions.
 
 ## 2. What is the user's product/company name?
 
-If the Palette MCP is available, pull this from organization context
-rather than asking. Otherwise ask. Call this value `<product>`.
+Ask the user (or pull from organization context if available — see the
+platform notes). Call this value `<product>`.
 
 ## 3. Which competitors should we seed?
 
 Ask the user for 2–5 competitors they want to track first. They don't
 need to be exhaustive — this is a starting point, and `/add-competitor`
-exists for adding more later.
-
-If the Palette MCP is available you can suggest competitors yourself
-based on the user's product context, but always confirm the list before
-writing.
+exists for adding more later. You can suggest competitors yourself
+based on the user's product context, but always confirm the list
+before writing.
 
 ## 4. Then write
 
@@ -94,5 +91,3 @@ Summarize:
   on any seeded competitor to fill it in later.
 - That `/add-competitor` is now available — they can use it to add more
   competitors without re-running this workflow.
-- That the install created a checkpoint they can revert to from the
-  timeline if they want to start over.

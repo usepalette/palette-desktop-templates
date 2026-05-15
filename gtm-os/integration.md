@@ -27,13 +27,5 @@ in with the user's real context.
 
 ## Notes
 
-- The user can revert this install from the History timeline if they
-  want to start over — a checkpoint was created before the files were
-  placed.
-
-- If Palette MCP is connected, prefer pulling org context via
-  `get-orgtology` rather than asking the user manually. The `/onboard`
-  flow handles this branching internally.
-
 - `GTM-OS.md` is the user-facing readme for the system. Leave it in
   place; users may refer to it later.
