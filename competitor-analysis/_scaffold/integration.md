@@ -3,7 +3,9 @@
 You are setting up structured competitor tracking in this project. The
 skill files are already placed for you under `.claude/skills/` — you
 don't need to touch them. Your job is to gather the missing details
-from the user, then write the contextual files into the project.
+from the user, then write the contextual files into the project using
+the content templates provided in this seed prompt (alongside this
+file, under `<palette-context>`).
 
 ## 1. Where should the market folder live?
 
@@ -29,13 +31,15 @@ before writing.
 
 ## 4. Then write
 
-For each file below, substitute the markers as listed.
+For each file below, take the content from the named scaffold file
+(provided inline in this seed prompt — look for `--- landscape.md ---`
+and `--- competitors/_template.md ---` markers) and write a customized
+copy at the destination path. The scaffold files are template-only;
+never write them as-is to the project.
 
 ### `<market>/landscape.md`
 
-Copy the contents of the inline `landscape.md` shown in the Contextual
-files section of this message — not any existing `landscape.md` in the
-project. Substitute:
+Copy from the `landscape.md` scaffold section. Substitute:
 
 - `{{PRODUCT}}` → `<product>` (every occurrence)
 - `{{COMPETITORS}}` → a bulleted markdown list of the seeded competitors,
@@ -44,8 +48,7 @@ project. Substitute:
 
 ### `<market>/competitors/<slug>.md` (one per seeded competitor)
 
-Copy the contents of the inline `competitors/_template.md` shown in
-the Contextual files section of this message. Substitute:
+Copy from the `competitors/_template.md` scaffold section. Substitute:
 
 - `{{COMPETITOR_NAME}}` → the competitor's display name
 - `{{TODAY}}` → today's date in `YYYY-MM-DD`
