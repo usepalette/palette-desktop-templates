@@ -5,6 +5,8 @@ A public catalog of templates for [Palette Studio](https://palette.team) — fol
 ## Templates
 
 - [GTM-OS](./gtm-os/) — Your GTM as a file system
+- [Competitor Analysis](./competitor-analysis/) — Structured competitor tracking
+- [Presentations](./presentations/) — Draft decks and generate self-contained HTML slides
 
 ## Structure
 
