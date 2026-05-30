@@ -39,7 +39,7 @@ Studio creates a checkpoint right before install so you can revert.
 
 ## After install
 
-```
+```bash
 /presentation new "Q3 Pipeline Review"      # start a draft
 /presentation draft q3-pipeline-review       # refine the outline
 /presentation slides q3-pipeline-review      # generate the HTML deck

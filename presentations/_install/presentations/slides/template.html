@@ -516,7 +516,12 @@
 
 <script>
   const isPresenter = new URLSearchParams(location.search).has('notes');
-  const channel = new BroadcastChannel('slides');
+  // Cross-window sync (presenter view, theme). Falls back to a no-op if
+  // BroadcastChannel is unavailable so single-window navigation still works.
+  const channel = (() => {
+    try { return new BroadcastChannel('slides'); }
+    catch { return { postMessage() {}, set onmessage(_) {}, close() {} }; }
+  })();
   const slides = document.querySelectorAll('.slide');
   const notesData = Array.from(slides).map(s => s.dataset.notes || '');
   let current = 0;
