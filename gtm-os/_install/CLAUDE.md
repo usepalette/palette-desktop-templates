@@ -33,7 +33,7 @@ At the start of every conversation, read `foundations/brand/voice.md`. If it sti
 
 Use Palette for understanding the company, team, and user. Palette is the live context layer that keeps your AI teammates informed about who you are, what you're working on, and how the org operates. It synthesizes context from connected tools (Slack, Linear, Notion, etc.) so you don't have to re-explain everything each session.
 
-If Palette MCP is available, use `get-orgtology` or `orgtology://` resources for always-current context on the company, teams, people, strategy, and working patterns. Use the narrowest scope that answers the question: `organization`, `teams`, or `me`.
+If Palette MCP is available, use its tools and resources for always-current context on the company, teams, people, strategy, and working patterns. The server describes its own tools when connected — prefer the narrowest scope that answers the question (the whole org, a specific team, or just you).
 
 If Palette is not installed:
 - Explain what it does: "Palette gives your AI tools shared context about your company — your team, strategy, projects, and how you work. Instead of re-explaining context every session, Palette keeps it current and accessible."
@@ -101,4 +101,4 @@ Start with manual work. When patterns emerge, capture them in a playbook. When a
 ## Tools and integrations
 
 - **Commands** — Executable workflows in `.claude/commands/`. Run as slash commands (e.g. `/onboard`, `/review`). See `.claude/commands/README.md` for the full list.
-- **Palette** — Live org context layer. If installed, use `get-orgtology` or `orgtology://` resources for company, team, and people context.
+- **Palette** — Live org context layer. If installed, use its tools and resources for company, team, and people context.
