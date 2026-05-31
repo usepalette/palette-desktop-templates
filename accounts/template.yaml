@@ -4,6 +4,7 @@ type: workflow
 version: 1.0.0
 author: Palette
 description: A lightweight account system for sales and CS — track the companies you're engaged with in plain files, log meetings in a consistent format, keep a running health read, and prep for calls grounded in your own sales approach. The stuff that doesn't fit a CRM field. Driven by an /account skill.
+logo: logo.png
 tags: [accounts, sales, crm, customer-success, relationships, workspace]
 license: MIT
 

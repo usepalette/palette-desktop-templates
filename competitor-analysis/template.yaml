@@ -4,5 +4,6 @@ type: workflow
 version: 1.0.0
 author: Palette
 description: Set up structured competitor tracking — a landscape doc, per-competitor profiles, and an /add-competitor command.
+logo: logo.png
 tags: [gtm, marketing, research, competitors]
 license: MIT
