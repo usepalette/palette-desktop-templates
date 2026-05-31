@@ -67,6 +67,6 @@ Briefly tell the user:
 - Where the workspace lives and what's in it.
 - That `/account` is now available, with its modes: `new "<company>"`,
   `meeting <slug>`, `prep <slug>`, `health <slug>`, `list`.
-- A suggested first step: `/account new "<a company they're working right now>"`.
+- A suggested first step: `/account new "<a company they're working with right now>"`.
 - That `approach.md` holds their sales approach and is theirs to edit — the
   `prep` mode reads it.

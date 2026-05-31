@@ -9,7 +9,7 @@ just markdown you can edit by hand.
 
 ## Layout
 
-```
+```text
 accounts/
 ├── accounts.md        # the roster — one row per account, skim to see where things stand
 ├── approach.md        # how you sell — discovery questions, qualification, next steps

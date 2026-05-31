@@ -9,7 +9,7 @@
 | **Size** | [~N employees] |
 | **Type** | [Customer / Prospect / Design partner] |
 | **Owner** | [Your name] |
-| **Stage** | [Lead / Outreach / Engaged / Onboarding / Active / Paused] |
+| **Stage** | [Lead / Outreach / Engaged / Onboarding / Active / Paused / Churned] |
 
 ## Key people
 
