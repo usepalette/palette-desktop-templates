@@ -103,7 +103,7 @@ writing or refining prose:
 ## Guidelines
 
 - One clear takeaway per piece. The reader should be able to say what the
-  point was afterwards.
+  point was afterward.
 - Useful first, promotional second. If someone learns something even without
   buying, the piece did its job.
 - Concrete beats abstract. Specific numbers, real examples, strong verbs.
