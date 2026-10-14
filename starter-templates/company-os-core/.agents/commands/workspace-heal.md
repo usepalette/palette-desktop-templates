@@ -77,7 +77,7 @@ Check each index against its files. List older work for its owner to keep, promo
 
 ### Commands
 
-Each page in `.agents/commands/` has an index row and a pointer file with the same name in `.claude/commands/`, and each pointer names a page that exists. The procedure lives in the page, never in the pointer.
+Each page in `.agents/commands/`, except `README.md`, has an index row and a pointer file with the same name in `.claude/commands/`, and each pointer names a page that exists. The procedure lives in the page, never in the pointer.
 
 **Fix:** add an obvious missing row or pointer; report a pointer whose page is gone.
 
