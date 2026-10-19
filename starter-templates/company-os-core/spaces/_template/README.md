@@ -11,9 +11,9 @@ edit_policy: team
 
 > **Mold.** This folder is copied to add a space; don't fill it in here. The steps are in the `README.md` one level up, under "Add a space".
 >
-> In the copy: put in the name, the owner and the one-line purpose the person gave you, and add the rows this space needs to the table below. Preserve the four `_template.md` files as molds, but apply the space's chosen edit policy to them. Follow the root page-state procedure before removing this box.
+> In the copy: put in the name, the owner and the one-line purpose the person gave you, and replace the bracketed row in the table below with the rows this space needs, or remove it. Preserve the four `_template.md` files as molds, but apply the space's chosen edit policy to them. Follow the root page-state procedure before removing this box.
 
-[One line: what this space is for, and what it holds.]
+[One line: what this space is for.]
 
 Company-wide rules live in the root [`AGENTS.md`](../../AGENTS.md) and always apply. How to think and behave *in this space* is in this folder's [`AGENTS.md`](AGENTS.md).
 
@@ -36,7 +36,7 @@ Company-wide rules live in the root [`AGENTS.md`](../../AGENTS.md) and always ap
 ```
 [space]/
 ├── README.md        # this front door
-├── AGENTS.md        # how to think and behave here (delete it if the root rules are enough)
+├── AGENTS.md        # how to think and behave here: the posture, and the rules that add to the root's
 ├── CLAUDE.md · GEMINI.md   # thin pointers so each agent loads AGENTS.md
 ├── foundations/     # what is known here: the reference to load before working
 ├── playbooks/       # how to think: one file per domain

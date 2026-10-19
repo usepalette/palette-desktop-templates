@@ -25,7 +25,7 @@ Every real local Markdown link must resolve, including heading anchors where use
 
 ### Lists and maps
 
-Real items in people, spaces, customers and projects must match their collection indexes. Product, competitor, format and command files must match their lists. Exclude molds and standard furniture (`README.md`, applicable rules/pointers and memory files) from item counts; the commands README does not list itself.
+Real items in people, spaces, customers and projects must match their collection indexes. Product, competitor, format and command files must match their lists. Exclude molds and standard furniture (`README.md`, the rules file and its pointers, and memory files) from item counts; the commands README does not list itself.
 
 Trees must match the retained structure. Exclude explicit on-first-use paths, example space names and temporary `SETUP.md` after setup. When a folder was deliberately removed, check that both links and dependent procedures were adjusted.
 
@@ -59,7 +59,7 @@ Real workspace edits need a date and verified human attribution, never an agent 
 
 The root, top-level content folders, real spaces and people have README, lessons and log files. Deeper content folders need a README but inherit the nearest existing memory pair. Technical host folders need no content furniture; `.agents/` has its reference index but needs no memory pair.
 
-Customer and project copies include their meetings README and mold, with real navigation headings and stamps. A space's meetings folder has both files when created. Retained collections of repeated items keep their molds. Local space rules have the appropriate vendor pointers; removing optional rules also removes their README references.
+Customer and project copies include their meetings README and mold, with real navigation headings and stamps. A space's meetings folder has both files when created. Retained collections of repeated items keep their molds. Every real space has `AGENTS.md`, `CLAUDE.md` and `GEMINI.md`; flag a space missing any of the three.
 
 **Fix:** flag incomplete copies. Restore missing pieces only when authorized, preserving existing content. Don't invent local rules or fill unknown facts.
 
@@ -77,7 +77,7 @@ Check each index against its files. List older work for its owner to keep, promo
 
 ### Commands
 
-Each page in `.agents/commands/`, except `README.md`, has an index row and a pointer file with the same name in `.claude/commands/`, and each pointer names a page that exists. The procedure lives in the page, never in the pointer.
+Each page in `.agents/commands/` has an index row and a pointer file with the same name in `.claude/commands/`, and each pointer names a page that exists. The procedure lives in the page, never in the pointer.
 
 **Fix:** add an obvious missing row or pointer; report a pointer whose page is gone.
 

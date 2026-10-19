@@ -44,10 +44,10 @@ This page is the map: what is where, and where a thing goes. New here? Open [`we
 ## How the folders fit together
 
 - **`company/` is what everyone shares.** The company on one page, then one small file per topic: how we work, the tools, the glossary, the brand, the products, the market, and the formats everyone reuses. If the whole company needs it, it lives here.
-- **A space is an area of work with its own rules and memory.** Turn one into whatever you need: go-to-market, product, design, content, operations. It can be a team's home, a discipline several people share, or a body of work; it doesn't have to be a team. Each space has its own front door, its own lessons and its own log. If it belongs to one area of work, it lives in that space, and a space links to `company/` instead of copying from it.
+- **A space is an area of work with its own rules and memory.** Turn one into whatever you need: go-to-market, product, design, content, operations. It can be a team's home, a discipline several people share, or a body of work; it doesn't have to be a team. Each space has its own front door, its own rules, its own lessons and its own log. If it belongs to one area of work, it lives in that space, and a space links to `company/` instead of copying from it.
 - **`people/`, `customers/` and `projects/` cut across the spaces.** A person, a customer and a project each get one folder, whichever spaces they touch. There is no separate team folder: a team that needs a home gets a space.
 
-Every content folder has a `README.md` explaining what belongs there. The root, top-level content folders, spaces and people also have `lessons.md` and `log.md`; deeper folders use the nearest existing pair. Collections of repeated items carry a `_template` to copy. Technical host folders are exceptions. Text in [brackets] marks unknowns or reusable slots, and a review box marks unfinished content; navigation and procedures work from day one.
+Every content folder has a `README.md` explaining what belongs there. The root, top-level content folders, spaces and people also have `lessons.md` and `log.md`; deeper folders use the nearest existing pair. The root and every space carry an `AGENTS.md` as well, with thin pointer files beside it so each agent loads it. Collections of repeated items carry a `_template` to copy. Technical host folders are exceptions. Text in [brackets] marks unknowns or reusable slots, and a review box marks unfinished content; navigation and procedures work from day one.
 
 ## Where things live
 
