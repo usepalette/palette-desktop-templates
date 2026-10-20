@@ -18,7 +18,7 @@ How a file is made here. Look-it-up reference: read it when you create, rename, 
 - **`README.md` is the front door of every content folder.** It says what the folder is for, what belongs in it and how to add to it. Where a folder *is* the content (`company/README.md`, a customer's or a project's `README.md`), it holds that content directly.
 - **`lessons.md` and `log.md`** sit beside it in the root, every top-level folder, every space and every person's folder. They are standard furniture and don't need listing in a folder's contents.
 - Technical folders used only by a host (such as `.vibe/`) need no README or memory files. Deeper content folders need a README, but use the nearest existing parent lessons/log unless they are themselves a space or person. A collection has a mold only when it creates repeated items.
-- **`AGENTS.md`** exists only in a space whose work has its own way of thinking that differs from the root rules. If the guidance is just what is here and where things go, that is a README. `AGENTS.md` and the pointer files beside it carry no frontmatter. The pointer files in `.claude/commands/` carry only a `description` and an `argument-hint`, which is what the command menu reads.
+- **`AGENTS.md`** lives in the root and in every space. `company/`, `people/`, `customers/` and `projects/` have none; the root rules cover them. A space's says how to think and behave there: its posture, and the rules that add to the root's. What is here and where things go belongs in the README, not in a rule. `CLAUDE.md` and `GEMINI.md` sit beside each `AGENTS.md` as pointers, and `.vibe/AGENTS.md` at the root is the pointer for one more host. None of these carry frontmatter. The pointer files in `.claude/commands/` carry only a `description` and an `argument-hint`, which is what the command menu reads.
 
 ## Frontmatter
 
@@ -49,7 +49,7 @@ edit_policy: everyone       # everyone | team | owner-only
 - Folder and file names in `kebab-case`. A dated file is `YYYY-MM-DD-slug.md`. Dates are always written out, never "yesterday".
 - Name a file for the subject it is about, not for the round of work that produced it: could someone who never saw the work guess what the file holds?
 - When files form a sequence, number them (`01-`, `02-`).
-- A file's heading matches its filename, except for `README.md`, `lessons.md`, `log.md` and dated notes, whose heading says what they are about.
+- A file's heading matches its filename, except for `README.md`, `AGENTS.md`, `lessons.md`, `log.md` and dated notes, whose heading says what they are about.
 - Reserve `AGENTS.md`, `CLAUDE.md` and `GEMINI.md` for agent instructions or pointers, and `README.md` for a folder's front door. Don't use these reserved names for an unrelated content page.
 
 ## Links
@@ -75,7 +75,7 @@ Update indexes, trees (the one in the root `README.md` and the one on `welcome.h
 
 Delete a folder only within the person's request; explain any loss of real content or dependent behavior before a consequential removal. Company and brand context remain part of a professional workspace, even when work starts in one team or project. Optional collections can be removed deliberately once their references and workflows are adjusted. Do not present required setup content that went missing as completed.
 
-When optional local `AGENTS.md` is removed from a copied space, remove its vendor pointers, the local-rules sentence, navigation row and tree entries as well; keep the reference to root rules.
+A space's `AGENTS.md`, `CLAUDE.md` and `GEMINI.md` are furniture, like its memory files: they stay as long as the space does.
 
 ## Copying a mold
 
