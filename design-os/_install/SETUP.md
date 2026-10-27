@@ -21,7 +21,7 @@ Make the person's folder if they have none: [`people/README.md`](people/README.m
 
 Show the pages you wrote and ask the person to read them. A page they agree with loses its "Not confirmed yet" box.
 
-When the person gives the team's name, put it in the heading of `AGENTS.md` and `README.md`.
+When the person gives the team's name, put it in the heading of `AGENTS.md` and `README.md`. Put the language the team saves its files in where `AGENTS.md` says `[working language]`: the language the person writes in, unless they name another.
 
 ## Not part of setup
 

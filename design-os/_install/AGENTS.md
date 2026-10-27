@@ -24,7 +24,7 @@ Read `log.md` files only when you need history. Open only the pages the task nee
 - **A page with a "Not filled in yet" box is empty, not guidance.** Do not treat its brackets as rules. When the task needs that page, say it is not filled in, do the work with what the code shows, and offer to fill the page in from what you found.
 - **A page with a "Not confirmed yet" box is a proposal.** Follow it, and say so when it shapes your work. A person deletes the box once they have read the page and agree with it. Pages you write from code or from a document keep that box until a person has said yes.
 - **Cite the guidance.** When a design decision matters, name the principle or the rule behind it, so the next person can follow the reasoning.
-- **Talk in the person's language. Save files in [working language].**
+- **Talk in the person's language. Save files in [working language].** Setup fills in the working language. Until it is filled in, save files in the language the person writes in.
 
 ## Where the design happens
 
