@@ -12,7 +12,7 @@ It ships as a **starter**: the principles are a starter set marked "Not confirme
    - Its name is Design, its folder `spaces/design/`, and what it is for: the design team's principles, settled rules, process and design system. Its edit policy is `team`.
    - Its owner is the person installing unless they name someone else. Ask in the same round as the setup questions below, not as a question of its own.
    - Add its row to the list of spaces in `spaces/README.md`, the area and its owner to **Areas and owners** in `company/how-we-work.md`, and one dated line to `spaces/log.md`. Stamp `owner`, `last_updated` and `last_updated_by` on `spaces/design/README.md`.
-   - If `spaces/design/AGENTS.md` is not among the files this install placed, the workspace already had a design space, and its own `README.md`, `AGENTS.md` and memory files were kept. Don't register it again: tell the user, and offer to bring the Design OS rules from the files that did land into that space's `AGENTS.md`.
+   - If `spaces/design/AGENTS.md` is not among the files this install placed, the workspace already had a design space. Don't register it again, and follow **If the workspace already had a design space** below before the setup.
    - If the workspace has no `spaces/README.md`, it wasn't set up from Company OS. Skip the registration, tell the user the design space is in `spaces/design/` with its rules in `spaces/design/AGENTS.md`, and offer to add a line pointing to it from their root `AGENTS.md`.
 
 3. **Start the design setup now**, following `spaces/design/SETUP.md` as written. The user's profile is the one in the root `people/`; if they have none yet, the root rules make it. Then ask once for what they have: whether the team designs in a design tool, in code or in both, the design files and repos they work in, where the design system lives, and where their existing design docs are. Whatever they have is enough to start — a repo alone is fine. Show where each piece of existing material would go and write after their yes; never invent token names, components or decisions.
@@ -24,6 +24,16 @@ It ships as a **starter**: the principles are a starter set marked "Not confirme
    - What you filled in, and which pages still say "Not filled in yet" or "Not confirmed yet" and need a person to read them.
    - That the starter principles in `principles/` and the process in `process/` are there to be changed as the team works — they aren't part of setup.
    - How the guidance grows: a settled call becomes a rule in `rules/`, a correction goes into the space's `lessons.md`, and what happened goes into its `log.md`.
+
+## If the workspace already had a design space
+
+The install keeps files that already exist, so that space kept its own `README.md`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `lessons.md` and `log.md`, and the rest of Design OS landed beside them. The Design OS rules did not: they are in `space-agents.md` below, the same file the install places as `spaces/design/AGENTS.md` everywhere else.
+
+1. Tell the user in a line what happened. Compare the space's `AGENTS.md` with `space-agents.md`, and show them the sections it lacks, by name: Before design work, Where the design happens, Rules, Bringing design material in, Share what you learn, Where to read for a task.
+2. After their yes, add those sections to the space's `AGENTS.md`, below its own posture and rules. Never replace or reword what it already says, and skip a rule it already has. Where one of its rules conflicts with a Design OS one, keep theirs and tell the user. If they say no, leave the space's `AGENTS.md` as it is and skip step 1 of the design setup.
+3. Add rows for `principles/`, `rules/`, `process/`, `design-system/`, `drafts/` and `repos.md` to the space's `README.md`, and one dated line to its `log.md`.
+
+Then start the design setup, step 3 above.
 
 ## Notes
 
