@@ -8,6 +8,7 @@ Palette Desktop Marketplace.
 - [Company OS](./company-os/): Your whole company as a file system
 - [GTM OS](./gtm-os/): Your GTM as a file system
 - [Product OS](./product-os/): Turn user signal into discovery, strategy, and specs
+- [Design OS](./design-os/): Your design team as a file system
 - [Project OS](./project-os/): Run a single project or client engagement, with a generated status dashboard
 - [Accounts](./accounts/): Track accounts, log meetings, and prep for calls
 - [Content](./content/): Draft, voice-check, and distribute the writing you ship
