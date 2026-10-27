@@ -1,8 +1,8 @@
 # Design OS
 
-Your design team as a file system: one folder of markdown for how the team thinks about design,
+A design space for your workspace: one folder of markdown for how your team thinks about design,
 the calls it has settled, how the work is done, and what the design system is, with a folder
-per designer for their drafts.
+for each exploration.
 
 Built for design teams that work with AI agents, so a call one designer settles holds in the
 next designer's work.
@@ -20,33 +20,40 @@ next designer's work.
 - **Design system pages** for foundations and components, written from your code or design
   library. They say what each part is for and never copy token values, so they don't go out of
   date with what ships.
-- **A folder per designer** with how they like to work and their drafts, so agents build on a
-  teammate's earlier exploration instead of starting over.
-- **Works with different AI agents.** `AGENTS.md` holds the shared rules, with small pointers
-  that help Claude Code, Codex, Gemini, Mistral, and other supported agents work the same way.
-- **Lessons and a log.** Corrections land in `lessons.md` and what happened in `log.md`. What
-  repeats is proposed as a rule, and a person approves it.
+- **Shared drafts**, one folder per exploration with who owns it and where it stands, so agents
+  build on a teammate's earlier work instead of starting over.
+- **Lessons and a log for design.** Corrections land in the space's `lessons.md` and what
+  happened in its `log.md`. What repeats is proposed as a rule, and a person approves it.
+
+## Part of your workspace
+
+Design OS installs as a space, `spaces/design/`, next to your other spaces. It doesn't replace
+anything already there:
+
+- Your workspace's rules still apply. The space's own `AGENTS.md` adds how to design, and agents
+  read it whenever they work in the space.
+- Designers use their profile in `people/`, like every teammate.
+- The space links to your brand and products in `company/` instead of copying them.
 
 ## How setup works
 
-Design OS starts with starter principles and process, empty rule files, and no sample data. Say
-**"Set this up with me"** and tell the agent what you have:
+After install, the agent adds Design to your list of spaces and starts its setup. Tell it what
+you have:
 
 - Whether you design in a design tool, in code, or both.
 - Where your design system lives: a repo, a library, or a link.
 - Where your product lives: a repo or a design file.
 - Where your existing design docs are, if you have any.
 
-A repo is enough to start. The agent adds you to `people/`, records where your team designs,
-checks it can reach your repos and design files, writes the design system pages from your code
-or library, and shows you where each existing doc would go before it writes anything. Pages it
-writes stay marked "Not confirmed yet" until someone on the team has read them. Palette Desktop
-creates a checkpoint first, so you can undo.
+A repo is enough to start. The agent records where your team designs, checks it can reach your
+repos and design files, writes the design system pages from your code or library, and shows you
+where each existing doc would go before it writes anything. Pages it writes stay marked "Not
+confirmed yet" until someone on the team has read them. Palette Desktop creates a checkpoint
+first, so you can undo.
 
 ## Design from the same guidance
 
-Open the folder with Claude Code, Codex, Gemini, or another supported agent. Every agent reads
-the rules for the area it works in before it touches a UI.
+Agents working on design read the space's rules for the area before they touch a UI.
 
 - "Review this screen against our rules and principles."
 - "We just settled that icons are always outlined. Add it as a rule."

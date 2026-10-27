@@ -4,8 +4,8 @@ type: folder
 version: 1.0.0
 author: Palette
 description: >-
-  Your design team as a file system: principles, settled design rules, process, the design
-  system, and each designer's drafts in one folder of Markdown. Your team and different
+  A design space for your workspace: principles, settled design rules, process, the design
+  system, and the team's explorations in one folder of Markdown. Your team and different
   supported agents can work from the same design guidance, decisions, and lessons.
 logo: logo.png
 tags: [design, design-system, ui, ux, figma, workspace]
@@ -15,7 +15,8 @@ requires:
   palette_desktop: ">=0.5"
 
 notes: |
-  After install, say "Set this up with me" and tell your agent whether you
+  Installs as spaces/design/, next to your other spaces. After install,
+  the agent lists it as a space and starts its setup: say whether you
   design in a design tool, in code or both, where your design system and
   product live, and where your existing design docs are. A repo is enough
   to start.
