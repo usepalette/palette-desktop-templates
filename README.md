@@ -1,42 +1,28 @@
-# Palette Desktop Marketplace
+# Palette Desktop templates
 
-A public catalog of folder systems and workflows you can install from the
-Palette Desktop Marketplace.
-
-## Folder systems and workflows
-
-- [Company OS](./company-os/): Your whole company as a file system
-- [GTM OS](./gtm-os/): Your GTM as a file system
-- [Product OS](./product-os/): Turn user signal into discovery, strategy, and specs
-- [Design OS](./design-os/): A design space for your team's principles, rules, process, and design system
-- [Project OS](./project-os/): Run a single project or client engagement, with a generated status dashboard
-- [Accounts](./accounts/): Track accounts, log meetings, and prep for calls
-- [Content](./content/): Draft, voice-check, and distribute the writing you ship
-- [Competitor Analysis](./competitor-analysis/): Structured competitor tracking
-- [Presentations](./presentations/): Draft decks and generate self-contained HTML slides
-- [Workspace Heal](./workspace-heal/): Audit workspace health and suggest missing foundations
+The templates that the Templates page in Palette Desktop shows and installs.
 
 ## Structure
 
-Each Marketplace item lives in its own folder. Two reserved subfolders are the
-only things Palette Desktop reads:
+| Path | What it holds |
+|---|---|
+| [`starters/`](starters/) | Whole workspaces. The app copies one when a workspace is made. |
+| [`spaces/`](spaces/) | A folder for one area of work, added to an existing workspace and set up in a session. |
+| [`artifacts/`](artifacts/) | One page, skill or file, added to a folder of a workspace and set up in a session. |
+| [`categories.yaml`](categories.yaml) | The categories that spaces and artifacts show under. |
+| [`featured.md`](featured.md) | The banner and the two featured cards at the top of the page. |
+| [`GUIDELINES.md`](GUIDELINES.md) | The kinds of template and the format of each. |
 
-- `_install/`: files placed on disk at the chosen destination. A file
-  at `<template>/_install/X` lands at `<destination>/X`.
-- `_scaffold/`: install-time content the agent reads from the seed
-  prompt instead of placing on disk. Use this for setup instructions
-  (`integration.md`) and content templates with `{{PLACEHOLDER}}`
-  markers the agent customizes before writing the final output to the
-  user's chosen location.
+Each of the three folders has a `README.md` that describes its format and lists what it holds.
 
-Everything else at the template root (manifest, README, logo,
-screenshots, CHANGELOG, and so on) is template metadata. Palette Desktop ignores it.
-The required pieces are:
+## Create or change a template
 
-- `template.yaml`: manifest (name, slug, version, author, description, tags)
-- `README.md`: detail-view content shown in the templates browser
-- `_install/` and/or `_scaffold/`: at least one is required
+1. Read [`GUIDELINES.md`](GUIDELINES.md). It defines each kind of template, its folder format, how it installs and stays current, and what else to change to keep the catalog consistent.
+2. For a new template, open an issue first. The catalog is curated.
+3. Open a pull request that changes one template, or one catalog file.
 
-## Contributing
+## Legacy folders
 
-Open a pull request with a new template folder. Templates are curated, so please open an issue first to discuss the idea.
+These folders serve earlier Palette Desktop releases. Change them only to fix one of those releases, and never add a template in their format. They will be removed soon.
+
+`accounts/` · `company-os/` · `competitor-analysis/` · `content/` · `design-os/` · `gtm-os/` · `presentations/` · `product-os/` · `project-os/` · `starter-templates/` · `workspace-heal/`
