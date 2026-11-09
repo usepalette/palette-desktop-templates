@@ -4,7 +4,6 @@ summary: The week's customer feedback sorted into themes, with the quotes, the c
 category: product
 order: 5
 tags: [feedback, customers, slack]
-connectors: [slack, hubspot, transcripts, linear]
 request: "Sort this week's feedback from #feedback, the support inbox and the calls into themes with quotes and counts, and link each theme to its issue."
 type: artifact
 artifact_kind: page

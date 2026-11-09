@@ -87,7 +87,7 @@ A card, a cover and a page each show the category, so a change in one place need
 
 | When you | Also do this |
 |---|---|
-| Add a space or an artifact | Name a `category` that exists, and list other categories in `also` only. Give it the next `order` in its category. Make its cover on the category's `cover` colour, and set `data-hue` on its pages to the category's `hue`. Add it to the list in its folder's `README.md`. |
+| Add a space or an artifact | Name a `category` that exists, and list other categories in `also` only. Give it the next `order` in its category. Make its cover on the category's `cover` colour, and set `data-hue` on its pages to the category's `hue`. Add it to the list in its folder's `README.md`, in its category and order. |
 | Remove a space or an artifact | Take it out of `featured.md` first. Renumber `order` in its category, with no gaps. Take it out of its folder's `README.md`. |
 | Move a template to another category | Change `category`, give it the next `order` there, renumber the old category, and make its cover and `data-hue` again in the new colours. |
 | Add a category | Pick a `hue` and a `cover` that no other category uses. Before a page uses the hue, make sure the page style has its `data-hue` rule. |
@@ -117,7 +117,6 @@ A card, a cover and a page each show the category, so a change in one place need
 | `category`, `also` | Spaces and artifacts only: where the card shows. |
 | `order`, `tags` | The card's place in its category (1, 2, 3, no gaps, unique in the category), and the words search matches. |
 | `request` | Spaces and artifacts only: what the person would say. The install session starts from it. |
-| `connectors` | Spaces and artifacts only: the connectors it reads. Each one is optional. |
 | `version` | `YYMMDDN`. See below. |
 | `author`, `updated` | Who made it, and the date of the last change. |
 
@@ -192,7 +191,7 @@ For one page per item, the subfolder holds every item. The process copies `_temp
 - The comment at the top is the frontmatter: `type`, `owner`, `last_updated`, `period`, `template`.
 - The content comes first. An `end of content` comment follows it, then the template's script and style. An agent reads only down to that comment.
 - The process writes only inside elements with `data-slot`. Everything outside a slot belongs to the team.
-- An element with `data-kept="YYYY-MM-DD"` was changed at someone's request. The process never rewrites it.
+- An element with `data-kept="YYYY-MM-DD"` was changed at someone's request. The process never rewrites it while its period lasts. At a new period it belongs to the earlier one: it leaves with that period, into the page's earlier list or only the checkpoint, and the new period starts without it.
 - Every section and row has a stable `id`. Comments on a shared page attach to it.
 
 **A run of the process** starts when someone asks for it, or presses Refresh on the page. Each run:

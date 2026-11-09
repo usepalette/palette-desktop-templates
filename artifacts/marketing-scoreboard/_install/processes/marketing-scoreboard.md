@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: marketing-scoreboard@2611092
+template: marketing-scoreboard@2611093
 ---
 
 # Marketing scoreboard
@@ -70,7 +70,7 @@ Every source is optional. Check which ones are connected: a source counts only w
    - `period` is empty: this is the first run. Ask where the note goes, and fill in **Where it goes** above. Take the year goals from the goals page, or ask for them, and fill in the goals on the page. Go to step 3.
    - `period` is this month: this is a refresh. Go to step 3.
    - `period` is an earlier month: go to step 2.
-2. **Start the new month.** Finish the earlier month's row in `months` with its final numbers, and move its notes into the row's detail. A closed month never changes after this. Then clear `numbers`, `signup-sources` and `notes`. Rows and tiles with `data-kept` go with their month. If the new month starts a new year, ask for the year's goals first, fill them in, and clear the charts.
+2. **Start the new month.** Finish the earlier month's row in `months` with its final numbers, and move its notes into the row's detail. A closed month never changes after this. Then clear `numbers`, `signup-sources` and `notes`. Rows and tiles with `data-kept` belong to the earlier month: they leave with it, and the new month starts without them. If the new month starts a new year, ask for the year's goals first, fill them in, and clear the charts.
 3. **Read the sources** for the month. Say which ones answered and which did not. Do not widen the period without asking.
 4. **Ask for the typed numbers** in one message: every number no source gave, with last week's value next to it. Write each answer with `data-kept` and today's date. A number nobody gives stays as it was, marked with the date of its last run, or "–".
 5. **Write the slots.** Where the year should be is the goal times the share of the year gone by the end of the page's month. Where it ends at this pace is the year so far, over the months gone, times twelve. Write the month's row in `months` with every number and its source. The toolbar gets the month and the sources with the time.

@@ -4,11 +4,10 @@ summary: The quarter's goals with this week's numbers, a confidence per key resu
 category: team
 order: 4
 tags: [goals, okr, weekly]
-connectors: [notion, linear, hubspot, posthog]
 request: "Set up our Q4 goals check-in from the goals page, Linear and HubSpot, and post it every Friday."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611093
 author: Lars Ettrup
 updated: 2026-11-09
 also: [marketing]

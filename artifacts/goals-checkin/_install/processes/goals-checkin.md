@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: goals-checkin@2611092
+template: goals-checkin@2611093
 ---
 
 # Goals check-in
@@ -78,7 +78,7 @@ Every source is optional. Check which ones are connected: a source counts only w
    - `period` is this week: this is a refresh. Go to step 4.
    - `period` is an earlier week of the same quarter: go to step 2.
    - `period` is in an earlier quarter: go to step 3.
-2. **Start the new week.** In each key result, move the week to the top of its `weeks` slot as one line: the week, the value, the confidence and the note. Then clear `note`, `confidence` and `change`. Values with `data-kept` go with their week. Go to step 4.
+2. **Start the new week.** In each key result, move the week to the top of its `weeks` slot as one line: the week, the value, the confidence and the note. Then clear `note`, `confidence` and `change`. Values with `data-kept` belong to the earlier week: they go into its line in `weeks` with the rest, and the new week starts without them. Go to step 4.
 3. **Set the quarter's goals.** Ask for the new goals before you write anything: the objectives, the key results with their targets, the owners, how each one is measured, and the one that decides the quarter. Read them from the goals page when there is one, and show them for a yes.
    - If the page holds a closed quarter, add it to the top of `earlier-quarters` as one row: the quarter, how many key results were met, and each key result with its final value.
    - Replace the objective sections with the new goals, one section per objective and one row per key result. Mark the deciding key result with `data-key`.

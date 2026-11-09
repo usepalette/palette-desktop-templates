@@ -4,7 +4,6 @@ summary: Now, next and later, from the projects in Linear and the specs in your 
 category: product
 order: 3
 tags: [roadmap, product, linear]
-connectors: [linear, notion, hubspot, slack]
 request: "Make our roadmap as now, next and later from the Linear projects and the specs, with a customer view I can share."
 type: artifact
 artifact_kind: page

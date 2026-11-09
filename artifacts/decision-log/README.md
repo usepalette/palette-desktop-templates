@@ -4,7 +4,6 @@ summary: Every decision the team took, with the why, the who and the thread it c
 category: team
 order: 2
 tags: [decisions, slack, notion]
-connectors: [slack, notion, linear]
 request: "Build our decision log from the #product and #marketing threads, the meeting notes and the Decisions page, and keep it updated."
 type: artifact
 artifact_kind: page

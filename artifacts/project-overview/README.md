@@ -4,7 +4,6 @@ summary: "Every project the team runs on one page: status, milestones, the pinne
 category: product
 order: 1
 tags: [projects, status, linear, github]
-connectors: [linear, github, slack, notion]
 request: "Build the projects overview from Linear, GitHub and Slack: status, milestones this week, the pinned update, and who we wait on."
 type: artifact
 artifact_kind: page

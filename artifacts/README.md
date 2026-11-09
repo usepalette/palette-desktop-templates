@@ -19,7 +19,7 @@ artifacts/<slug>/
 
 A page artifact has no `_scaffold/`: its install steps are the same for every one.
 
-**`README.md` frontmatter:** `title`, `summary`, `type: artifact`, `artifact_kind: page`, `category`, `also`, `order`, `tags`, `connectors`, `request`, `version`, `author`, `updated`.
+**`README.md` frontmatter:** `title`, `summary`, `type: artifact`, `artifact_kind: page`, `category`, `also`, `order`, `tags`, `request`, `version`, `author`, `updated`.
 
 **The page** is one self-contained HTML file: the style, the script, the fonts and the images are in it, and a link goes only to a web address or to a place on the same page. Its content comes first, before an `end of content` comment. The process writes only inside elements with `data-slot`, and never rewrites an element with `data-kept`.
 
@@ -38,16 +38,16 @@ The page and the process both carry the stamp `template: <slug>@<version>`. `pre
 
 | Artifact | Category | Shape |
 |---|---|---|
-| [Weekly update](weekly-update/README.md) | Team | One page, a new week on top |
-| [Decision log](decision-log/README.md) | Team | One page, a log |
-| [Goals check-in](goals-checkin/README.md) | Team | One page, a new week on top |
-| [Team capacity](team-capacity/README.md) | Team | One page |
 | [Projects overview](project-overview/README.md) | Product | One page |
-| [Roadmap](roadmap/README.md) | Product | One page, with a version for customers |
 | [Sprint review](sprint-review/README.md) | Product | One page, a new cycle on top |
+| [Roadmap](roadmap/README.md) | Product | One page, with a version for customers |
 | [Release notes](release-notes/README.md) | Product | One page, a new week on top, with a version for customers |
 | [Feedback digest](feedback-digest/README.md) | Product | One page, a new week on top |
 | [Content calendar](content-calendar/README.md) | Marketing | One page |
 | [Marketing scoreboard](marketing-scoreboard/README.md) | Marketing | One page |
-| [Competitor watch](competitor-watch/README.md) | Marketing | One page, a new week on top |
 | [Launch plan](launch-plan/README.md) | Marketing | One page per launch, in `launches/` |
+| [Competitor watch](competitor-watch/README.md) | Marketing | One page, a new week on top |
+| [Weekly update](weekly-update/README.md) | Team | One page, a new week on top |
+| [Decision log](decision-log/README.md) | Team | One page, a log |
+| [Team capacity](team-capacity/README.md) | Team | One page |
+| [Goals check-in](goals-checkin/README.md) | Team | One page, a new week on top |

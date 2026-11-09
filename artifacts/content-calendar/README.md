@@ -4,7 +4,6 @@ summary: What goes out, when, on which channel and in what state, by week and by
 category: marketing
 order: 1
 tags: [content, marketing, notion, calendar]
-connectors: [notion, google-calendar, linear, slack]
 request: "Build the content calendar for November from the Notion database, the launch dates and the marketing issues, by week and by month."
 type: artifact
 artifact_kind: page

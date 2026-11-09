@@ -4,11 +4,10 @@ summary: Signups, leads, visits and paying teams against the year goal, by month
 category: marketing
 order: 2
 tags: [metrics, marketing, weekly]
-connectors: [hubspot, posthog, notion]
 request: "Set up the marketing scoreboard from HubSpot and PostHog with our year goal, and refresh it every Monday."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611093
 author: Brian Kyed
 updated: 2026-11-09
 also: [team]

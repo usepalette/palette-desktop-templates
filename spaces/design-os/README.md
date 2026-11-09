@@ -4,7 +4,6 @@ summary: A design space for your workspace, with the team's principles, settled 
 category: design
 order: 1
 tags: [design, design-system, ui, ux, figma]
-connectors: [github, figma, notion]
 request: "Set up a design space for our team: we design in Figma and in code, the design system is in our app repo, and our design docs are in Notion."
 type: space
 folder: design

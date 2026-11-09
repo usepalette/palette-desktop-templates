@@ -4,11 +4,10 @@ summary: What shipped this week, written for customers from the pull requests an
 category: product
 order: 4
 tags: [release, changelog, github]
-connectors: [github, linear, slack]
 request: "Write this week's release notes for customers from the merged PRs and the closed issues, and tell me who asked for each thing."
 type: artifact
 artifact_kind: page
-version: 2611093
+version: 2611094
 author: Kaspar-Jon Dremstrup
 updated: 2026-11-09
 also: [marketing]

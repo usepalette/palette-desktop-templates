@@ -4,11 +4,10 @@ summary: "The cycle's review: planned against done, what carried over and why, w
 category: product
 order: 2
 tags: [sprint, cycle, linear, github]
-connectors: [linear, github, slack]
 request: "Write the review of the cycle that just ended from Linear and GitHub: planned against done, carry-over with reasons, the highlights, per person."
 type: artifact
 artifact_kind: page
-version: 2611093
+version: 2611094
 author: Christian Lomholt
 updated: 2026-11-09
 ---

@@ -4,7 +4,7 @@ summary: "A workspace for the whole company: who you are, your people, your area
 type: starter
 order: 1
 tags: [company, workspace, team, knowledge-base]
-version: 2611091
+version: 2611092
 author: Palette
 updated: 2026-11-09
 ---

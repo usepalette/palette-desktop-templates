@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: release-notes@2611093
+template: release-notes@2611094
 ---
 
 # Release notes
@@ -76,7 +76,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
    - `period` is empty: this is the first run. Ask where the changelog lives and which channel gets the announcement, propose the areas, fill in **Where it goes** above, and go to step 3.
    - `period` is this week: this is a refresh. Go to step 3.
    - `period` is an earlier week: go to step 2.
-2. **Start the new week.** Move the earlier week to the top of **Earlier weeks** as one row that opens: "Week 44: " and its headline, with the date of its Friday. Its detail holds the week's customer lines by kind, with their wording as published: take them from `release-notes-customers.html`, which holds what went out, not from the page, which can hold edits made after publishing. If the week was never published, take the page's lines and add "Not published" to the row. Its internal lines and the customer names do not move. Then clear the other slots.
+2. **Start the new week.** Move the earlier week to the top of **Earlier weeks** as one row that opens: "Week 44: " and its headline, with the date of its Friday. Its detail holds the week's customer lines by kind, with their wording as published: take them from `release-notes-customers.html`, which holds what went out, not from the page, which can hold edits made after publishing. If the week was never published, take the page's lines, add "Not published" to the row, and mark the row `data-internal`, so no customer version shows lines nobody approved. Take `data-internal` off only when the week is published. Its internal lines and the customer names do not move. Then clear the other slots.
 3. **Read the sources** for the week. Say which ones answered and which did not.
 4. **Write the slots.** Sort each change into new, improved or fixed. Write each line for customers: what they can do now, in plain words, with no pull request, issue key or code term. Group the fixes a customer would not notice into one row, for example "Six more small fixes". Find who asked for each line in the feedback and the issues. Then write the internal rows, the pills, the headline, and the toolbar with the week and the sources.
 5. **Show what changed** against the page before this run, one line per change, and save after a yes.

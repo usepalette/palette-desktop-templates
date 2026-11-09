@@ -493,31 +493,5 @@ details.row.closing .chev { transform: none; }
 @media (prefers-reduced-motion: reduce) { details.row, .row .chev { transition: none; } }
 
 </style>
-<script>
-// live: when the Inspiration prototype shows this page in a frame (#live in the URL) it hides the scrollbar, frames the page
-// the way the captures were framed, lets the entrance play, then scrolls slowly down and back (v4, 22 October)
-if (location.hash.includes('live')) {
-  const st = document.createElement('style');
-  st.textContent = 'html{background:#f9f9f9;scrollbar-width:none} ::-webkit-scrollbar{display:none} html,body{overscroll-behavior:none} body{padding:24px 24px 0} .page{border-radius:20px;min-height:calc(100vh - 24px)}';
-  if (location.hash.includes('card')) st.textContent += ' body{padding:20px 20px 0} .lead{display:none} .page{padding-top:36px}';   // framed like the card captures
-  document.body.appendChild(st);
-  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    let dir = 1, y = 0, last = null, rest = 0;
-    const speed = 26;   // px per second
-    const tick = (now) => {
-      const max = Math.max(0, document.documentElement.scrollHeight - innerHeight);
-      if (last !== null) {
-        const dt = Math.min((now - last) / 1000, 0.1);
-        if (rest > 0) rest -= dt;
-        else { y += dir * speed * dt; if (y >= max) { y = max; dir = -1; rest = 1.8; } if (y <= 0) { y = 0; dir = 1; rest = 2.6; } }
-        window.scrollTo(0, y);
-      }
-      last = now; requestAnimationFrame(tick);
-    };
-    setTimeout(() => requestAnimationFrame(tick), 2000);
-  }
-}
-
-</script>
 </body>
 </html>

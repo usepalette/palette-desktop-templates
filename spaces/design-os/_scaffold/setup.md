@@ -4,7 +4,7 @@ What the agent does in the session that installs this template. Read it with the
 
 The app placed Design OS at `spaces/design/`, the design team's home inside the company OS. It holds how the team thinks about design (`principles/`), the calls it has settled (`rules/`), how the work is done (`process/`), what the design system is (`design-system/`), and the team's explorations (`drafts/`). Nothing was placed outside `spaces/design/`.
 
-It ships as a **starter**: the principles are a starter set marked "Not confirmed yet", the process pages are starters too, the rule files are empty, and the pages about the team's own setup (`repos.md`, `design-system/`) are marked "Not filled in yet". There is no sample data.
+It ships as a **first version**: the principles are a first set marked "Not confirmed yet", the process pages are first drafts too, the rule files are empty, and the pages about the team's own setup (`repos.md`, `design-system/`) are marked "Not filled in yet". There is no sample data.
 
 ## What to do
 
@@ -26,7 +26,7 @@ It ships as a **starter**: the principles are a starter set marked "Not confirme
 6. **Sum up the first pass:**
    - Where the space is listed, and who owns it.
    - What you filled in, and which pages still say "Not filled in yet" or "Not confirmed yet" and need a person to read them.
-   - That the starter principles in `principles/` and the process in `process/` are there to be changed as the team works. They aren't part of setup.
+   - That the first principles in `principles/` and the process in `process/` are there to be changed as the team works. They aren't part of setup.
    - How the guidance grows: a settled call becomes a rule in `rules/`, a correction goes into the space's `lessons.md`, and what happened goes into its `log.md`.
 
 ## Notes

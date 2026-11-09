@@ -43,6 +43,7 @@ edit_policy: everyone       # everyone | team | owner-only
 - **A command page** (`type: command`, in `.agents/commands/`) carries the full block plus a one-line `description` and, when it takes input, an `argument-hint`. Quote both. `argument-hint` is written with a hyphen because that is the name command menus read.
 - **Small pages** (one meeting note) need only `type` and what their mold already carries.
 - **Optional fields**, only where they earn their place: `read_when: [..]` (when to open the page), `tags: [..]`, `resource: <url>` (the live system this page mirrors), `cadence: weekly|monthly|quarterly`, `review_by: YYYY-MM-DD`, `maintained_by: machine` (a generated file; don't hand-edit).
+- **`template: <slug>@<version>`** is set by Palette when it installs a starter, a space or an artifact. It says which template, at which version, made the page, and Palette reads it to find what is installed. Never change or remove it, and keep it when you rewrite a page. An HTML page carries it in the comment at its top.
 
 ## Naming
 

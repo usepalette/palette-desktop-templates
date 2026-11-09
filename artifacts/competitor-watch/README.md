@@ -4,7 +4,6 @@ summary: What the competitors did this week and whether it matters, with a profi
 category: marketing
 order: 4
 tags: [competitors, marketing, weekly]
-connectors: [web, slack, transcripts, notion]
 request: "Watch our four competitors' changelogs, pricing pages and posts, pull the mentions from Slack and the calls, and write the weekly digest with what matters."
 type: artifact
 artifact_kind: page

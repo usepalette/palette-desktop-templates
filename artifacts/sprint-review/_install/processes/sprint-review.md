@@ -5,7 +5,7 @@ status: active
 last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
-template: sprint-review@2611093
+template: sprint-review@2611094
 ---
 
 # Sprint review
@@ -67,7 +67,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
    - `period` is empty: this is the first run. Ask where the review goes and what the target is. Fill in **Where it goes** above, write the target in the note under the chart, and go to step 3.
    - `period` is this cycle: this is a refresh. Go to step 3.
    - `period` is an earlier cycle: go to step 2.
-2. **Start the new cycle.** Move the earlier cycle to the top of **Earlier cycles** as one row: "Cycle 22: " and its headline, with the date it ended. Shift the chart one column to the left: drop the oldest column and its label, and take `now` off the last one. Then clear the other slots. Rows with `data-kept` go with their cycle.
+2. **Start the new cycle.** Move the earlier cycle to the top of **Earlier cycles** as one row: "Cycle 22: " and its headline, with the date it ended. Shift the chart one column to the left: drop the oldest column and its label, and take `now` off the last one. Then clear the other slots. Rows with `data-kept` belong to the earlier cycle: they leave with it, and the new cycle starts without them.
 3. **Read the sources** for the cycle. Say which ones answered and which did not. Do not widen the cycle without asking.
 4. **Write the slots.** The headline is one sentence on the cycle and one on what carried. Then the four numbers, the newest column of the chart (and `--v` on every column if the top of the scale changed), carried over, added, worth showing and per person. On the first run, fill the five earlier columns from the task tool; a cycle it does not have shows "–". If no source names three things worth showing, ask for them in one question. The toolbar gets the cycle and the sources with the time.
 5. **Show what changed** against the page before this run, one line per change, with the old and the new value. Save after a yes.

@@ -4,11 +4,10 @@ summary: The week's update to the team and the people above it, written from Lin
 category: team
 order: 1
 tags: [weekly, team, slack, linear]
-connectors: [linear, github, slack, google-calendar]
 request: "Write this week's update for the team from Linear, GitHub, Slack and the calendar, and show me before it goes out."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611093
 author: Silja Hürlimann
 updated: 2026-11-09
 also: [product]

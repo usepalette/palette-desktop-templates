@@ -4,7 +4,6 @@ summary: "One launch on one page: the countdown, the checklist per workstream, t
 category: marketing
 order: 3
 tags: [launch, marketing, product, calendar]
-connectors: [linear, notion, github, google-calendar, slack]
 request: "Make the launch plan for Portals 2.0 on 26 November: the checklist per workstream from Linear, the pieces from the content calendar, the dates from the calendar."
 type: artifact
 artifact_kind: page

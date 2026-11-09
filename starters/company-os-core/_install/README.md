@@ -5,7 +5,7 @@ status: draft
 last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: everyone
-template: company-os-core@2611091
+template: company-os-core@2611092
 ---
 
 # [Company] OS

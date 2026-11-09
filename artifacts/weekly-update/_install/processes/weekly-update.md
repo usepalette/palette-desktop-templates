@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: weekly-update@2611092
+template: weekly-update@2611093
 ---
 
 # Weekly update
@@ -50,7 +50,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
    - `period` is empty: this is the first run. Ask where the update goes, fill in **Where it goes** above, and go to step 3.
    - `period` is this week: this is a refresh. Go to step 3.
    - `period` is an earlier week: go to step 2.
-2. **Start the new week.** Move the earlier week to the top of **Earlier weeks** as one row: "Week 44: " and its headline, with the date of its Friday. Then clear the other slots. Rows with `data-kept` go with their week.
+2. **Start the new week.** Move the earlier week to the top of **Earlier weeks** as one row: "Week 44: " and its headline, with the date of its Friday. Then clear the other slots. Rows with `data-kept` belong to the earlier week: they leave with it, and the new week starts without them.
 3. **Read the sources** for the week. Say which ones answered and which did not.
 4. **Write the slots.** The headline is one sentence on the week and one on what follows. Then the four numbers, shipped, decided, at risk, next week and out next week. The toolbar gets the week and the sources with the time.
 5. **Show what changed** against the page before this run, one line per change, and save after a yes.

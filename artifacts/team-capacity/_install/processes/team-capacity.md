@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: team-capacity@2611093
+template: team-capacity@2611094
 ---
 
 # Team capacity
@@ -56,7 +56,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
    - `period` is empty: this is the first run. Ask who is on the team, where the work comes from and what an estimate is in days. Fill in **The team** above, and go to step 3.
    - `period` is this week: this is a refresh. Go to step 3.
    - `period` is an earlier week: go to step 2.
-2. **Start the new week.** Clear every slot. The page shows one week, so the earlier week is not kept. Rows with `data-kept` go with their week.
+2. **Start the new week.** Clear every slot. The page shows one week, so the earlier week is not kept. Rows with `data-kept` belong to the earlier week: they leave with it, and the new week starts without them.
 3. **Read the sources** for the week. Say which ones answered and which did not.
 4. **Work out the week.** For each person, the days available are the working days minus time off and meeting hours. The days planned are the estimates of the issues assigned to them. Spread each person's work over the days they are in.
 5. **Write the slots.** The headline, the four numbers, one row per person by day, the suggested moves and the issues nobody has. Propose moves smallest issues first, only to people with the days and the skill for it. Without estimates, leave the suggested moves empty and say why. The toolbar gets the week and the sources with the time.
