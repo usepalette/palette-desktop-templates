@@ -15,7 +15,7 @@ It ships as a **starter**: the principles are a starter set marked "Not confirme
 3. **Register the space**, the way `spaces/README.md` → Add a space, steps 7 and 8, describes. The space is already in place: don't copy `spaces/_template/` and don't recreate any of its files.
    - Its name is Design, its folder `spaces/design/`, and what it is for: the design team's principles, settled rules, process and design system. Its edit policy is `team`.
    - Its owner is the person installing unless they name someone else. Ask in the same round as the setup questions in step 5, not as a question of its own.
-   - Add its row to the list of spaces in `spaces/README.md`, the area and its owner to **Areas and owners** in `company/how-we-work.md`, and one dated line to `spaces/log.md`. If a row for Design is already there, update that row; never add a second one.
+   - Add its row to the list of spaces in `spaces/README.md`, the area and its owner to **Areas and owners** in `company/how-we-work.md`, and one dated line to `spaces/log.md`. If either list already has a row for Design, which happens when this install replaced a design space, update that row; never add a second one.
 
 4. **Stamp every page.** In each page under `spaces/design/` that has frontmatter, `[Owner]` becomes the owner, `last_updated` becomes today and `last_updated_by` becomes the person you are working for. Leave `drafts/_template/` as it is: it is a mold, and its slots are filled when a draft is made. Never change `template` in `spaces/design/README.md`: the app reads it to find the space and its version.
 

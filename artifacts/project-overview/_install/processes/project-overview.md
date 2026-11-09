@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: project-overview@2611092
+template: project-overview@2611093
 ---
 
 # Projects overview
@@ -53,7 +53,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
   | `pinned-update` | The pinned update from the project channel, as written. |
   | `who-is-on-what` | One table row per person: the project and the work this week. |
   | `waiting-on` | Who outside the team the projects wait on, and since when. |
-  | `what-changed` | What changed since last week: progress, status, delivered. |
+  | `what-changed` | What changed since last week: progress, status, delivered, against `last_week`. |
   | `footer` | When the stakeholder version was last written, and for whom. |
 
 - Each project is a row that opens (`details.row`). The summary holds the name (`.t`), the progress (`.tr` and `.bar`, with `warn` when it is at risk), the blocker in one sentence when there is one (`.s`), and the owner, the stage and the target date (`.m`). The detail holds **This week** (issues closed, pull requests merged), **Open** (open issues and the open risk) and **Sources** (the project in the task tool, the spec, the channel).
@@ -65,6 +65,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
   - A wait: `waiting-` and a short slug, for example `waiting-legal-data-agreement`. A person: `person-` and their name, for example `person-anna-moen`.
   - Keep the `id` of a row that stays: comments on the shared page attach to it.
 - `period` in the comment at the top of the page is the week the page shows, for example `2026-W45`.
+- `last_week` in the same comment holds each project's progress and status at the end of last week, by row `id`, for example `p-portals-2: 72% · Build`. Only a new week changes it, so every refresh in the week compares against the same values.
 - The page is shared as one file. A source links to its web address, never to a file in the workspace. Never add a stylesheet, a script, a font or an image from outside the page.
 
 ### The stakeholder version
@@ -78,9 +79,9 @@ Every source is optional. Check which ones are connected. For a missing one, say
    - `period` is empty: this is the first run. Go to step 3.
    - `period` is this week: this is a refresh. Go to step 3.
    - `period` is an earlier week: go to step 2.
-2. **Start the new week.** Note each project's progress and status as the page shows it. **What changed** compares against these. Take out milestones older than this week, and projects delivered more than a week ago.
+2. **Start the new week.** Write each project's progress and status, as the page shows it, into `last_week` in the comment at the top. Take out milestones older than this week, and projects delivered more than a week ago.
 3. **Read the sources** for this week and next. Say which ones answered and which did not.
-4. **Write the slots.** The headline, the three numbers, the projects with their detail, the milestones, the pinned update as written, who is on what, who the team waits on, and what changed since last week. The toolbar gets the day and the sources with the time.
+4. **Write the slots.** The headline, the three numbers, the projects with their detail, the milestones, the pinned update as written, who is on what, who the team waits on, and what changed since last week, against `last_week`. The toolbar gets the day and the sources with the time.
 5. **Show what changed** against the page before this run, one line per change, and save after a yes.
 6. **Stamp the page.** Set `period`, `last_updated` and `last_updated_by` in the comment at the top. Set `template` to the value in this process's frontmatter.
 7. **Refresh the stakeholder version.** If `project-overview-stakeholders.html` exists, show what changes in it and write it again after a yes.

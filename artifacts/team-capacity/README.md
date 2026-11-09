@@ -8,7 +8,7 @@ connectors: [linear, google-calendar]
 request: "Show me the team's capacity for next week from the calendar and Linear, and suggest what to move."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611093
 author: Brian Kyed
 updated: 2026-11-09
 also: [product]

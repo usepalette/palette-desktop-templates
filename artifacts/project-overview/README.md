@@ -8,7 +8,7 @@ connectors: [linear, github, slack, notion]
 request: "Build the projects overview from Linear, GitHub and Slack: status, milestones this week, the pinned update, and who we wait on."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611093
 author: Brian Kyed
 updated: 2026-11-09
 also: [team]

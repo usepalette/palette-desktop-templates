@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: monthly
-template: roadmap@2611092
+template: roadmap@2611093
 ---
 
 # Roadmap
@@ -82,7 +82,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
 8. **Refresh the customer version.** If `roadmap-customers.html` exists, show what changes in it and write it again after a yes. Write the date in the `footer` slot.
 9. **Share after a yes.** When someone asks to share the roadmap:
    - For the whole roadmap: write `roadmap-customers.html` if it does not exist, and fill in **Where it goes** above. Show it, and share it after a yes, as a link from Palette or as the three columns in a short mail.
-   - For a customer who asks about one project: find the project's column and quarter in the customer version. Draft the answer in two lines and show it. The person sends it, or it is sent after a yes.
+   - For a customer who asks about one project: first make sure the customer version is current. Write `roadmap-customers.html` if it does not exist, or write it again if the page changed since, each after a yes. If the person says no, stop: never answer from the page itself. Then find the project's column and quarter in the customer version. Draft the answer in two lines and show it. The person sends it, or it is sent after a yes.
    - Then add the customer, the date and what they were told to the project's **Asked when** line, marked `data-internal`. Write "Customer version written" with the date in the `footer` slot.
 10. **Update the shared page.** If the page is shared from Palette, offer to update the shared copy too.
 

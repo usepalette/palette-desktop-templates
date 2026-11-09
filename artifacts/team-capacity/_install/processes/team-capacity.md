@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: team-capacity@2611092
+template: team-capacity@2611093
 ---
 
 # Team capacity
@@ -30,7 +30,7 @@ Writes the coming week's capacity into [`../team-capacity.html`](../team-capacit
 - **Linear or Jira**: the issues in the week's cycle, with their assignees and estimates. The moves are made here.
 - **Google Calendar**: time off, and the hours in meetings per person.
 
-Every source is optional. Check which ones are connected. For a missing one, say what it would add, for example "connect Google Calendar and time off and meetings fill themselves". Without estimates, count issues instead of days, and say so in the headline. Without the calendar, everyone is in all week, and the sources line says so. Never invent a number.
+Every source is optional. Check which ones are connected. For a missing one, say what it would add, for example "connect Google Calendar and time off and meetings fill themselves". Without estimates, show each person's days available and their issue count side by side, and say so in the headline. Issues are not days: then call nobody over or with room, and propose no moves, until the issues have estimates. Without the calendar, everyone is in all week, and the sources line says so. Never invent a number.
 
 ## How the page is built
 
@@ -59,10 +59,10 @@ Every source is optional. Check which ones are connected. For a missing one, say
 2. **Start the new week.** Clear every slot. The page shows one week, so the earlier week is not kept. Rows with `data-kept` go with their week.
 3. **Read the sources** for the week. Say which ones answered and which did not.
 4. **Work out the week.** For each person, the days available are the working days minus time off and meeting hours. The days planned are the estimates of the issues assigned to them. Spread each person's work over the days they are in.
-5. **Write the slots.** The headline, the four numbers, one row per person by day, the suggested moves and the issues nobody has. Propose moves smallest issues first, only to people with the days and the skill for it. The toolbar gets the week and the sources with the time.
+5. **Write the slots.** The headline, the four numbers, one row per person by day, the suggested moves and the issues nobody has. Propose moves smallest issues first, only to people with the days and the skill for it. Without estimates, leave the suggested moves empty and say why. The toolbar gets the week and the sources with the time.
 6. **Show what changed** against the page before this run, one line per change, and save after a yes.
 7. **Stamp the page.** Set `period`, `last_updated` and `last_updated_by` in the comment at the top. Set `template` to the value in this process's frontmatter.
-8. **Make the moves after a yes.** List the people over and the people with room, with the days. Show each move as it will be made in the task tool: the issue, from whom, to whom, and why. Make only the moves the person accepts.
+8. **Make the moves after a yes.** Only when the issues have estimates. List the people over and the people with room, with the days. Show each move as it will be made in the task tool: the issue, from whom, to whom, and why. Make only the moves the person accepts.
 9. **Write the moves onto the page.** Add "Moved" and the day to each move made, and write the moves made with the time in the `footer` slot. Then do steps 3 to 6 again, so the numbers show the week after the moves. Say in one line who is still over, if anyone.
 10. **Update the shared page.** If the page is shared from Palette, offer to update the shared copy too.
 
