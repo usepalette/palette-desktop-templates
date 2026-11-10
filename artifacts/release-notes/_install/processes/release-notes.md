@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: release-notes@2611101
+template: release-notes@2611102
 ---
 
 # Release notes
@@ -82,6 +82,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
 5. **Show what changed** against the page before this run, one line per change, and save after a yes.
 6. **Stamp the page.** Set `period`, `last_updated` and `last_updated_by` in the comment at the top. Set `template` to the value in this process's frontmatter.
 7. **Publish after a yes.** Show the customer version as it will publish, without the internal parts. After a yes, post it to the changelog and the announcements channel. Send the mail only when someone asks for it, and only after a yes for the mail. Write "Published to" with the places and the time in the `footer` slot. Then write `release-notes-customers.html`.
+   - An earlier week marked "Not published" can be published later. Show its lines as they will publish. After a yes, take `data-internal` and "Not published" off its row, and publish them the same way.
 8. **Tell the customers who asked.** For each customer in an "Asked for by" or "Reported by" span, draft a short note: it thanks them and holds only their lines. Show each note, and send it after a yes for that note. A note without a yes stays a draft. Add the count of notes sent to the `footer` slot, inside a `data-internal` span.
 9. **Update the shared pages.** If the page or the customer version is shared from Palette, offer to update the shared copy too.
 
