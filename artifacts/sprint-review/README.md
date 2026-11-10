@@ -7,9 +7,9 @@ tags: [sprint, cycle, linear, github]
 request: "Write the review of the cycle that just ended from Linear and GitHub: planned against done, carry-over with reasons, the highlights, per person."
 type: artifact
 artifact_kind: page
-version: 2611094
+version: 2611101
 author: Christian Lomholt
-updated: 2026-11-09
+updated: 2026-11-10
 ---
 
 # Sprint review

@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: launch-plan@2611092
+template: launch-plan@2611101
 ---
 
 # Launch plan
@@ -62,7 +62,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
 
 1. **Find the launch.** Use the launch the person names, or the page where Refresh was pressed. If the person names none, read [`../launches/README.md`](../launches/README.md): when one launch has not shipped, use it; otherwise ask which, and list them. A launch with no row is a new launch: go to step 2. Otherwise go to step 3.
 2. **Start a new launch.** Ask for what the request did not give: the name, the date, the launch channel and the launch project.
-   - Copy `../launches/_template.html` to `../launches/<slug>.html`. Set `title` in the comment at the top to the launch's name.
+   - Copy `../launches/_template.html` to `../launches/<slug>.html`. Set the page's `<title>` to the launch's name.
    - Add the launch's row to `../launches/README.md`: the name with a link to its page, the date, the owner, the channel and "Active". Replace the `_None yet._` row with the first launch.
 3. **Read the sources** for this launch. Do not widen the launch's scope without asking. Say which sources answered and which did not.
 4. **Write the slots.** Four workstreams (product, marketing, support and sales) unless the launch project has others. Mark a part that no source gave as "Not known yet".

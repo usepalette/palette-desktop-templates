@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: release-notes@2611094
+template: release-notes@2611101
 ---
 
 # Release notes
@@ -67,7 +67,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
 `release-notes-customers.html`, next to the page, is the page for customers. The first publish makes it, and every publish after that writes it again.
 
 - It is a copy of the page without every element that has `data-internal`. Remove a pill that no row keeps.
-- In its top comment, set `title` to "Release notes for customers" and remove the `template` line, so the app does not take it for the page.
+- Set its `<title>` to "Release notes for customers", and remove the `template` line from its top comment, so the app does not take it for the page.
 - Never edit it by hand. Change the page and publish again.
 
 ## Steps

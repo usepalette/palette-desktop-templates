@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: monthly
-template: roadmap@2611093
+template: roadmap@2611101
 ---
 
 # Roadmap
@@ -64,7 +64,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
 ### The customer version
 
 - `data-internal` marks what stays inside the team: the owners, the confidence, the progress, the dates inside a quarter, the slipped count, who asked and when, and the sources line.
-- The customer version is `roadmap-customers.html`, beside the page. It is a copy of the page with every element marked `data-internal` removed. Set `--n` on the tiles to the number of tiles left. Its comment at the top says `type: doc`, `title: Roadmap for customers` and the date it was written.
+- The customer version is `roadmap-customers.html`, beside the page. It is a copy of the page with every element marked `data-internal` removed. Set `--n` on the tiles to the number of tiles left. Its `<title>` is "Roadmap for customers". Its comment at the top says `type: doc` and the date it was written, and has no `template` line.
 - Mark every new owner, confidence, progress bar, date inside a quarter and customer name with `data-internal` when you write it. A headline names a quarter, never a day; put a date in a sentence marked `data-internal`.
 
 ## Steps

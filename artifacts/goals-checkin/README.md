@@ -7,9 +7,9 @@ tags: [goals, okr, weekly]
 request: "Set up our Q4 goals check-in from the goals page, Linear and HubSpot, and post it every Friday."
 type: artifact
 artifact_kind: page
-version: 2611093
+version: 2611101
 author: Lars Ettrup
-updated: 2026-11-09
+updated: 2026-11-10
 also: [marketing]
 ---
 

@@ -7,9 +7,9 @@ tags: [decisions, slack, notion]
 request: "Build our decision log from the #product and #marketing threads, the meeting notes and the Decisions page, and keep it updated."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611101
 author: Christian Lomholt
-updated: 2026-11-09
+updated: 2026-11-10
 also: [product, marketing]
 ---
 

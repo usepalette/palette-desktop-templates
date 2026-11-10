@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: weekly-update@2611093
+template: weekly-update@2611101
 ---
 
 # Weekly update

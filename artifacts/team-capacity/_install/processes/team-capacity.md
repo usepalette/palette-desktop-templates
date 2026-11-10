@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: team-capacity@2611094
+template: team-capacity@2611101
 ---
 
 # Team capacity

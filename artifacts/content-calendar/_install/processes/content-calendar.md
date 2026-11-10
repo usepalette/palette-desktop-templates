@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: content-calendar@2611092
+template: content-calendar@2611101
 ---
 
 # Content calendar

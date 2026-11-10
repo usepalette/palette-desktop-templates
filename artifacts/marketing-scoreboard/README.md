@@ -7,9 +7,9 @@ tags: [metrics, marketing, weekly]
 request: "Set up the marketing scoreboard from HubSpot and PostHog with our year goal, and refresh it every Monday."
 type: artifact
 artifact_kind: page
-version: 2611093
+version: 2611101
 author: Brian Kyed
-updated: 2026-11-09
+updated: 2026-11-10
 also: [team]
 ---
 

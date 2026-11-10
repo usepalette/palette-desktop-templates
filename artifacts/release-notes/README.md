@@ -7,9 +7,9 @@ tags: [release, changelog, github]
 request: "Write this week's release notes for customers from the merged PRs and the closed issues, and tell me who asked for each thing."
 type: artifact
 artifact_kind: page
-version: 2611094
+version: 2611101
 author: Kaspar-Jon Dremstrup
-updated: 2026-11-09
+updated: 2026-11-10
 also: [marketing]
 ---
 

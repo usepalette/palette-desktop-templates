@@ -5,7 +5,7 @@ status: active
 last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
-template: sprint-review@2611094
+template: sprint-review@2611101
 ---
 
 # Sprint review

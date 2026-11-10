@@ -7,9 +7,9 @@ tags: [feedback, customers, slack]
 request: "Sort this week's feedback from #feedback, the support inbox and the calls into themes with quotes and counts, and link each theme to its issue."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611101
 author: Silja Hürlimann
-updated: 2026-11-09
+updated: 2026-11-10
 also: [marketing]
 ---
 

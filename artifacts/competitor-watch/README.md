@@ -7,9 +7,9 @@ tags: [competitors, marketing, weekly]
 request: "Watch our four competitors' changelogs, pricing pages and posts, pull the mentions from Slack and the calls, and write the weekly digest with what matters."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611101
 author: Lars Ettrup
-updated: 2026-11-09
+updated: 2026-11-10
 ---
 
 # Competitor watch

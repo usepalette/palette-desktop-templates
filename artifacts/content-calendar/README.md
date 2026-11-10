@@ -7,9 +7,9 @@ tags: [content, marketing, notion, calendar]
 request: "Build the content calendar for November from the Notion database, the launch dates and the marketing issues, by week and by month."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611101
 author: Silja Hürlimann
-updated: 2026-11-09
+updated: 2026-11-10
 ---
 
 # Content calendar

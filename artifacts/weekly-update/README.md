@@ -7,9 +7,9 @@ tags: [weekly, team, slack, linear]
 request: "Write this week's update for the team from Linear, GitHub, Slack and the calendar, and show me before it goes out."
 type: artifact
 artifact_kind: page
-version: 2611093
+version: 2611101
 author: Silja Hürlimann
-updated: 2026-11-09
+updated: 2026-11-10
 also: [product]
 ---
 

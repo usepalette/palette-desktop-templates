@@ -7,9 +7,9 @@ tags: [launch, marketing, product, calendar]
 request: "Make the launch plan for Portals 2.0 on 26 November: the checklist per workstream from Linear, the pieces from the content calendar, the dates from the calendar."
 type: artifact
 artifact_kind: page
-version: 2611092
+version: 2611101
 author: Lars Ettrup
-updated: 2026-11-09
+updated: 2026-11-10
 also: [product]
 ---
 

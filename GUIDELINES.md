@@ -188,7 +188,7 @@ For one page per item, the subfolder holds every item. The process copies `_temp
 
 **The page's structure:**
 
-- The comment at the top is the frontmatter: `type`, `owner`, `last_updated`, `period`, `template`.
+- The comment at the top is the frontmatter, in Core's format. Every page has `type`, `owner`, `status`, `last_updated`, `last_updated_by`, `edit_policy` and `template`. A page that shows a period also has `period`, and a page may hold a field its process names, such as `last_week`. The page's name is its `<title>` element.
 - The content comes first. An `end of content` comment follows it, then the template's script and style. An agent reads only down to that comment.
 - The process writes only inside elements with `data-slot`. Everything outside a slot belongs to the team.
 - An element with `data-kept="YYYY-MM-DD"` was changed at someone's request. The process never rewrites it while its period lasts. At a new period it belongs to the earlier one: it leaves with that period, into the page's earlier list or only the checkpoint, and the new period starts without it.
