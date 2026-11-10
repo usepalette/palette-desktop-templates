@@ -1,0 +1,42 @@
+# The categories on the Templates page, in the order the page shows them.
+# A space or an artifact names one in `category` and may name more in `also`.
+# The page hides a category that has no template yet.
+#
+# hue: one of the eight brand colours in the page style. A page uses it as `data-hue`.
+# cover: the cover background, the hue's tint mixed with 15% white. Keep the two in step.
+
+- id: product
+  name: Product
+  summary: Plan, build and ship, from what customers ask for to what goes out.
+  hue: blue
+  cover: "#92bffc"
+
+- id: design
+  name: Design
+  summary: The design team's principles, rules, process and design system.
+  hue: pink
+  cover: "#fd9fce"
+
+- id: marketing
+  name: Marketing
+  summary: Content, launches, competitors and the numbers that show what works.
+  hue: violet
+  cover: "#cdb2fb"
+
+- id: sales
+  name: Sales
+  summary: Accounts, calls and what each customer needs next.
+  hue: orange
+  cover: "#ffb47f"
+
+- id: team
+  name: Team
+  summary: How the team works together, week to week.
+  hue: green
+  cover: "#99e4b8"
+
+- id: operations
+  name: Operations
+  summary: Goals, budgets, hiring and the work that keeps the company running.
+  hue: yellow
+  cover: "#f4d77b"
