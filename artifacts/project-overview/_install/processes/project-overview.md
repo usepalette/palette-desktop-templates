@@ -6,7 +6,7 @@ last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
 edit_policy: team
 cadence: weekly
-template: project-overview@2611101
+template: project-overview@2611102
 ---
 
 # Projects overview
@@ -71,7 +71,7 @@ Every source is optional. Check which ones are connected. For a missing one, say
 ### The stakeholder version
 
 - `data-internal` marks what stays inside the team: the view pills, **Who is on what**, **Waiting on** and **What changed**.
-- The stakeholder version is `project-overview-stakeholders.html`, beside the page. It is a copy of the page with every element marked `data-internal` removed. Its `<title>` is "Projects overview for stakeholders". Its comment at the top says `type: doc` and the date it was written, and has no `template` line.
+- The stakeholder version is `project-overview-stakeholders.html`, beside the page. It is a copy of the page with every element marked `data-internal` removed. Its `<title>` is "Projects overview for stakeholders". Its comment at the top holds only `type: doc` and the date it was written. Remove every other field, so no team member's name reaches stakeholders and the app does not take the copy for the page.
 
 ## Steps
 

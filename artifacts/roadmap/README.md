@@ -7,7 +7,7 @@ tags: [roadmap, product, linear]
 request: "Make our roadmap as now, next and later from the Linear projects and the specs, with a customer view I can share."
 type: artifact
 artifact_kind: page
-version: 2611101
+version: 2611102
 author: Søren Clausen
 updated: 2026-11-10
 also: [marketing]
