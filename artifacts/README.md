@@ -50,4 +50,4 @@ The page and the process both carry the stamp `template: <slug>@<version>`. `pre
 | [Weekly update](weekly-update/README.md) | Team | One page, a new week on top |
 | [Decision log](decision-log/README.md) | Team | One page, a log |
 | [Team capacity](team-capacity/README.md) | Team | One page |
-| [Goals check-in](goals-checkin/README.md) | Team | One page per quarter, with earlier weeks inside each key result |
+| [Goals check-in](goals-checkin/README.md) | Team | One page for the current quarter, with its earlier weeks inside each key result and earlier quarters summarised below |
