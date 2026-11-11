@@ -3,40 +3,41 @@
 # The page hides a category that has no template yet.
 #
 # hue: one of the eight brand colours in the page style. A page uses it as `data-hue`.
-# cover: the cover background, the hue's tint mixed with 15% white. Keep the two in step.
+# cover: the background of the category's covers. A new category takes its hue's tint,
+#   --<hue>-tint in the page style. Keep the covers on it.
 
 - id: product
   name: Product
   summary: Plan, build and ship, from what customers ask for to what goes out.
   hue: blue
-  cover: "#92bffc"
+  cover: "#81b0fc"
 
 - id: design
   name: Design
   summary: The design team's principles, rules, process and design system.
   hue: pink
-  cover: "#fd9fce"
+  cover: "#fb86c5"
 
 - id: marketing
   name: Marketing
   summary: Content, launches, competitors and the numbers that show what works.
   hue: violet
-  cover: "#cdb2fb"
+  cover: "#c29ffb"
 
 - id: sales
   name: Sales
   summary: Accounts, calls and what each customer needs next.
   hue: orange
-  cover: "#ffb47f"
+  cover: "#ffa86b"
 
 - id: team
   name: Team
   summary: How the team works together, week to week.
   hue: green
-  cover: "#99e4b8"
+  cover: "#8ae1aa"
 
 - id: operations
   name: Operations
   summary: Goals, budgets, hiring and the work that keeps the company running.
   hue: yellow
-  cover: "#f4d77b"
+  cover: "#f2d064"

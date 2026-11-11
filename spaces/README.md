@@ -23,15 +23,16 @@ spaces/<slug>/
 - `AGENTS.md`: how to work in the space. It adds to the workspace's root rules. `CLAUDE.md` and `GEMINI.md` point to it.
 - `lessons.md` and `log.md`: the space's memory.
 - `SETUP.md`, when the space needs a setup of its own that can take more than one session. It is deleted when that setup is done.
-- The space's own folders. A space links to `company/`, `people/` and `projects/`, and never copies them.
+- The space's own folders. A space links to `company/`, `people/`, `customers/` and `projects/`, and never copies them. The records a space works on, such as a customer or a project, stay in those folders.
 
 **`_scaffold/setup.md`** is what the install session does, once:
 
 1. Say what the space is.
 2. If the install replaced a folder, say so, and offer to bring pages back from the checkpoint.
-3. Register the space in `spaces/README.md`, `company/how-we-work.md` and `spaces/log.md`.
-4. Fill in the owner and the dates on every page.
-5. Start the space's own setup.
+3. Register the space in `spaces/README.md`, `company/how-we-work.md` and `spaces/log.md`. When work for the space often starts in another folder, such as `customers/` or `projects/`, point that folder's README to the space's process too.
+4. When another space already keeps the same kind of page, such as a sales or a content playbook, show both and ask which one is the home.
+5. Fill in the owner and the dates on every page.
+6. Start the space's own setup.
 
 ## How it installs
 
@@ -45,4 +46,9 @@ A space needs `spaces/README.md` in the workspace. Without it, the card says so 
 
 | Space | Category | What it is |
 |---|---|---|
-| [Design OS](design-os/README.md) | Design | The design team's principles, rules, process and design system |
+| [Product](product/README.md) | Product | What users say, the open questions, the strategy and the specs, each linked to its evidence |
+| [Design](design/README.md) | Design | The design team's principles, rules, process and design system |
+| [GTM](gtm/README.md) | Marketing | The go-to-market strategy and sales story, the playbooks for selling, content and launches, and a launch kit |
+| [Content](content/README.md) | Marketing | Every piece the company ships, from the first draft to the published link, with the playbook and the voice check |
+| [Accounts](accounts/README.md) | Sales | How the team works its accounts: the sales approach, call prep, account health and reviews |
+| [Project](project/README.md) | Team | How the team runs its projects: starting one, recording its decisions, the ways of working and the formats |

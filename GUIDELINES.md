@@ -7,14 +7,14 @@ These guidelines define the kinds of item that Palette Desktop offers as templat
 | Type | What it is | Where it lands | How it installs | Example |
 |---|---|---|---|---|
 | **Starter** | A whole workspace | A new workspace | The app copies it. No session. | `starters/company-os-core` |
-| **Space** | A folder with its own rules for one team or area | `spaces/<folder>/` | The app copies it. A session fits it to the workspace. | `spaces/design-os` |
-| **Artifact** | One page, skill or file | A folder the person picks | The app copies it. A session makes the first version. | `artifacts/weekly-update` |
+| **Space** | A folder with its own rules for one team or area | `spaces/<folder>/` | The app copies it. A session fits it to the workspace. | `spaces/design` |
+| **Artifact** | One page, skill or file | A folder the person picks. A skill lands in `.claude/skills/`. | The app copies it. A session makes the first version. | `artifacts/weekly-update` |
 
 ## How they fit together
 
 - A **starter** sets the structure: `company/`, `people/`, `projects/`, `spaces/`, and the rules in `AGENTS.md` and `.agents/`.
 - A **space** goes in `spaces/`. Its pages link to the starter's pages, so **a space needs `spaces/README.md`**. Only a workspace made from Company OS Core, or from a starter that extends it, has that file.
-- An **artifact** goes in any folder: `company/`, a project or a space. A page artifact brings its own process, so it works in any workspace.
+- An **artifact** goes in any folder: `company/`, a project or a space. A page artifact brings its own process, so it works in any workspace. A skill artifact goes in `.claude/skills/`, where agents look for skills, and works in any workspace too.
 - A starter can ship artifacts already in place. They are added when the starter is built, not at install.
 - A page that covers what Core or a space already keeps is a **view, never a second store**. Its process reads those files and writes only to its own page. For example, Project overview reads `projects/` and never writes to it.
 
@@ -40,7 +40,7 @@ A YAML list. The page shows the categories in the order of the list.
   name: Product          # the label on the page
   summary: Plan, build and ship, from what customers ask for to what goes out.
   hue: blue              # the colour of the category's pages
-  cover: "#92bffc"       # the background of the category's cover images
+  cover: "#81b0fc"       # the background of the category's cover images
 ```
 
 | Field | Format |
@@ -49,7 +49,7 @@ A YAML list. The page shows the categories in the order of the list.
 | `name` | One or two words, in sentence case. |
 | `summary` | One sentence, under 80 characters, ending with a full stop. |
 | `hue` | One of the eight brand colours: `blue`, `cyan`, `green`, `orange`, `pink`, `red`, `violet`, `yellow`. Each category has its own hue. |
-| `cover` | A quoted six-digit hex colour: the hue's tint mixed with 15% white. Each category has its own cover colour. |
+| `cover` | A quoted six-digit hex colour: the background of the category's covers. A new category takes its hue's tint, `--<hue>-tint` in the page style. Each category has its own cover colour. |
 
 No other fields. The page hides a category that no template names in `category` or `also`.
 
@@ -61,7 +61,7 @@ Frontmatter that names the templates, then the banner's copy.
 ---
 banner: artifacts/weekly-update
 row:
-  - spaces/design-os
+  - spaces/design
   - artifacts/roadmap
 ---
 
@@ -104,7 +104,7 @@ A card, a cover and a page each show the category, so a change in one place need
 | `cover.png` | The card image, 1260×812, on the category's `cover` colour. A starter has no category; its cover is a neutral grey. |
 | `preview.html` | Page artifacts only: the page after a run, with made-up content. It never lands. |
 | `_install/` | The files that land in the workspace, with paths relative to the target folder. |
-| `_scaffold/` | Extra instructions for the agent session that finishes the install. The app gives them to the session but never copies them into the workspace. Add the folder only when the template needs more than the standard steps for its type (see [How each type installs](#how-each-type-installs)). Design OS has one; Weekly update does not. |
+| `_scaffold/` | Extra instructions for the agent session that finishes the install. The app gives them to the session but never copies them into the workspace. Add the folder only when the template needs more than the standard steps for its type (see [How each type installs](#how-each-type-installs)). Design has one; Weekly update does not. |
 
 ## README frontmatter
 
@@ -157,6 +157,27 @@ A space needs `spaces/README.md`. If the workspace has no such file, the card sa
 4. A session fills in the owner and the dates, adds the process to `processes/README.md`, and runs the process once.
 
 These steps are the same for every page artifact, so a page artifact has no `_scaffold/`.
+
+**Skill artifact**
+
+A skill lands where agents look for skills, not in a folder the person picks.
+
+1. The app takes a checkpoint.
+2. The app copies `_install/` to the root of the workspace, so the skill lands in `.claude/skills/<slug>/`. An earlier folder with that name is replaced, and the checkpoint keeps it.
+3. A session says what the skill does and how to ask for it, and runs the skill's first run when `SKILL.md` has one.
+
+These steps are the same for every skill artifact, so a skill artifact has no `_scaffold/`.
+
+## How a skill fits the workspace
+
+A skill artifact is one skill: `SKILL.md` and the files it reads, in `.claude/skills/<slug>/`. Palette lists a skill there for every agent.
+
+- `SKILL.md` starts with `name` (the slug), `description` (what it does, and when to use it) and `metadata.template`.
+- The skill reads the workspace's own rules before it acts: the root `AGENTS.md` and `README.md`, and in a workspace made from Company OS Core, `.agents/conventions.md` and the pages in `.agents/commands/`. Where the workspace has its own page for the same job, that page wins.
+- It never assumes a folder name. It finds where things live from the root `README.md`'s map and the folders on disk, so it keeps working after a team renames, removes or adds a folder.
+- What it writes goes where the workspace already keeps that kind of thing. A first run that needs answers is a section of `SKILL.md`, so it also works when the install session is skipped.
+- A skill hides a command with the same name: Palette lists skills first. A skill named like a Core command does at least what that command does.
+- A new version replaces `.claude/skills/<slug>/` whole. What the skill wrote in the workspace stays as it is.
 
 ## How a page stays current
 
@@ -222,7 +243,7 @@ The app finds installed templates by their stamps, not by file or folder names.
 ## Not decided yet
 
 - The page style has `data-hue` rules for blue, green and violet only. A page in design, sales or operations needs the pink, orange or yellow rule added first.
-- The format of skill and file artifacts.
+- The format of file artifacts.
 - The shared style has no rule for links, so a link in a row's sources shows in the browser's default blue.
 - The toolbar's `.btn` (the week, the quarter, "For customers") is a `<button>` that does nothing on every page. Make it a label, or give it a job in the shared script.
 - How a space updates without losing the team's changes.

@@ -1,7 +1,7 @@
 ---
 banner: artifacts/weekly-update
 row:
-  - spaces/design-os
+  - spaces/design
   - artifacts/roadmap
 ---
 
