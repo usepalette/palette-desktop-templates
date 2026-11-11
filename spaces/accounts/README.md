@@ -72,7 +72,7 @@ After install, a session adds Accounts to your list of spaces and starts its set
 - The accounts you are working on now.
 - Where your existing sales playbook is, if you have one.
 
-The agent writes your sales approach with you, records which tool owns the stage and the contacts, and adds your first accounts to `customers/` once you have seen the list. It also points the rows for call prep and account reviews in `customers/README.md` at the space, so work that starts from a customer finds your approach. If another space already has a sales playbook, it shows you both and asks which one the team keeps. Pages it writes stay marked "Not confirmed yet" until someone on the team has read them.
+The agent writes your sales approach with you, records which tool owns the stage and the contacts, and adds your first accounts to `customers/` once you have seen the list. It also points the rows for call prep and account reviews in `customers/README.md` at the space, so work that starts from a customer finds your approach, and makes a quiet account Paused rather than archived. If another space already has a sales playbook, it shows you both and asks which one the team keeps. Pages it writes stay marked "Not confirmed yet" until someone on the team has read them.
 
 ## Part of your workspace
 

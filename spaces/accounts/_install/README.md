@@ -64,7 +64,7 @@ An account's stage is the `stage` field in its brief. When [`company/tools.md`](
 | **Active** | They use the product, and we are in regular contact |
 | **Paused** | They went quiet: no recent activity |
 
-An account that leaves, or says no, is archived: `status: archived` in its brief, and its row moves to the bottom of the table in [`customers/README.md`](../../customers/README.md). The folder stays as the record.
+An account that leaves, or says no, is archived: `status: archived` in its brief, and its row moves to the bottom of the table in [`customers/README.md`](../../customers/README.md). The folder stays as the record. An account that only went quiet is **Paused**, never archived, so it stays in every review. This replaces the line under **Conventions** in [`customers/README.md`](../../customers/README.md) that archives a customer who goes quiet; setup changes that line.
 
 ## Structure
 
