@@ -7,8 +7,18 @@ tags: [content, writing, blog, linkedin, newsletter]
 request: "Set up a content space for our team: we post on LinkedIn every week, write for our blog once a month, and send a newsletter from Substack."
 type: space
 folder: content
+contents:
+  - folder: pieces
+    description: One file per piece, and the list of every piece
+  - folder: playbooks
+    description: How the team thinks about content
+  - folder: processes
+    description: Start, refine, check the voice, plan distribution, publish
+  - file: lessons.md
+    description: What to do differently here
+  - file: log.md
+    description: What happened here
 version: 2611111
-author: Palette
 license: MIT
 updated: 2026-11-11
 ---

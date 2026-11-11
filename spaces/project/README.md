@@ -8,8 +8,18 @@ tags: [projects, delivery, clients, decisions]
 request: "Set up a project space for how we run projects: we do client engagements and a few internal ones, our tasks are in Linear, and our briefs and statements of work are in Google Docs."
 type: space
 folder: project
+contents:
+  - folder: playbooks
+    description: How the team works on a project, and how someone joins one
+  - folder: processes
+    description: Starting a project, recording a decision
+  - folder: templates
+    description: The formats a project's pages use, from the brief to the decision record
+  - file: lessons.md
+    description: What to do differently here
+  - file: log.md
+    description: What happened here
 version: 2611111
-author: Palette
 license: MIT
 updated: 2026-11-11
 ---

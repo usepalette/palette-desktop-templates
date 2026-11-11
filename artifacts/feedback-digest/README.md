@@ -8,7 +8,6 @@ request: "Sort this week's feedback from #feedback, the support inbox and the ca
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Silja Hürlimann
 updated: 2026-11-10
 also: [marketing]
 ---

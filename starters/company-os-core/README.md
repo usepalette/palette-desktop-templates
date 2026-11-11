@@ -5,7 +5,6 @@ type: starter
 order: 1
 tags: [company, workspace, team, knowledge-base]
 version: 2611101
-author: Palette
 updated: 2026-11-10
 ---
 

@@ -8,7 +8,6 @@ request: "Build our decision log from the #product and #marketing threads, the m
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Christian Lomholt
 updated: 2026-11-10
 also: [product, marketing]
 ---

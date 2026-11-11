@@ -8,7 +8,6 @@ request: "Make our roadmap as now, next and later from the Linear projects and t
 type: artifact
 artifact_kind: page
 version: 2611102
-author: Søren Clausen
 updated: 2026-11-10
 also: [marketing]
 ---

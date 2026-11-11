@@ -7,8 +7,24 @@ tags: [design, design-system, ui, ux, figma]
 request: "Set up a design space for our team: we design in Figma and in code, the design system is in our app repo, and our design docs are in Notion."
 type: space
 folder: design
+contents:
+  - folder: principles
+    description: How the team thinks about design
+  - folder: rules
+    description: The settled calls, one file per area
+  - folder: process
+    description: Exploring, scoping and reviewing a design
+  - folder: design-system
+    description: Foundations and components
+  - folder: drafts
+    description: One folder per exploration
+  - file: repos.md
+    description: The repos and design files, and how agents reach them
+  - file: lessons.md
+    description: What to do differently here
+  - file: log.md
+    description: What happened here
 version: 2611111
-author: Palette
 license: MIT
 updated: 2026-11-11
 ---

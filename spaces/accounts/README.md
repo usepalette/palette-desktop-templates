@@ -7,8 +7,18 @@ tags: [accounts, sales, customer-success, calls]
 request: "Set up an accounts space for our sales team: deals and contacts live in HubSpot, our calls are recorded in Gong, and our sales playbook is a Google Doc."
 type: space
 folder: accounts
+contents:
+  - folder: playbooks
+    description: The sales approach
+  - folder: processes
+    description: Preparing a call, reading an account's health, reviewing every account
+  - folder: templates
+    description: The formats for an account's plan and health
+  - file: lessons.md
+    description: What to do differently here
+  - file: log.md
+    description: What happened here
 version: 2611111
-author: Palette
 license: MIT
 updated: 2026-11-11
 ---

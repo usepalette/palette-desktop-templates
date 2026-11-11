@@ -8,7 +8,6 @@ request: "Watch our four competitors' changelogs, pricing pages and posts, pull 
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Lars Ettrup
 updated: 2026-11-10
 ---
 

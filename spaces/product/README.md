@@ -7,8 +7,26 @@ tags: [product, user-feedback, discovery, strategy, specs]
 request: "Set up a product space for our team: feedback comes in through Intercom and our feedback channel in Slack, we track the work in Linear, and our research and specs are in Notion."
 type: space
 folder: product
+contents:
+  - folder: user-feedback
+    description: Feedback, interviews, requests, painpoints, companies, recaps and the dashboard
+  - folder: discovery
+    description: Open questions, each with a plan to learn the answer
+  - folder: strategy
+    description: Durable claims about how the product wins
+  - folder: specs
+    description: Briefs for one buildable piece of work
+  - folder: team-input
+    description: What each person is pushing for, and the roadmap sync format
+  - folder: playbooks
+    description: How feedback is synthesised
+  - folder: processes
+    description: Capture, synthesise, rebuild the dashboard, share, write a spec, review
+  - file: lessons.md
+    description: What to do differently here
+  - file: log.md
+    description: What happened here
 version: 2611111
-author: Palette
 license: MIT
 updated: 2026-11-11
 ---

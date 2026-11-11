@@ -19,7 +19,7 @@ artifacts/<slug>/
 
 A page artifact has no `_scaffold/`: its install steps are the same for every one.
 
-**`README.md` frontmatter:** `title`, `summary`, `type: artifact`, `artifact_kind: page`, `category`, `also`, `order`, `tags`, `request`, `version`, `author`, `updated`.
+**`README.md` frontmatter:** `title`, `summary`, `type: artifact`, `artifact_kind: page`, `category`, `also`, `order`, `tags`, `request`, `version`, `updated`.
 
 **The page** is one self-contained HTML file: the style, the script, the fonts and the images are in it, and a link goes only to a web address or to a place on the same page. Its content comes first, before an `end of content` comment. The process writes only inside elements with `data-slot`, and never rewrites an element with `data-kept`.
 
@@ -48,7 +48,7 @@ artifacts/<slug>/
 
 A skill artifact has no `_scaffold/` and no `preview.html`. Its detail page ends with an example of what the skill produces, with made-up content.
 
-**`README.md` frontmatter:** `title`, `summary`, `type: artifact`, `artifact_kind: skill`, `category`, `also`, `order`, `tags`, `request`, `version`, `author`, `updated`.
+**`README.md` frontmatter:** `title`, `summary`, `type: artifact`, `artifact_kind: skill`, `category`, `also`, `order`, `tags`, `request`, `version`, `updated`.
 
 **`SKILL.md`** starts with `name` (the slug), `description` (what it does, and when to use it) and the stamp in `metadata`:
 

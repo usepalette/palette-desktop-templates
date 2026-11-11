@@ -8,7 +8,6 @@ request: "Write the review of the cycle that just ended from Linear and GitHub: 
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Christian Lomholt
 updated: 2026-11-10
 ---
 
