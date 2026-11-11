@@ -1,5 +1,6 @@
 ---
 type: feedback
+owner: "[Owner]"
 date: YYYY-MM-DD
 requested_by: "[Full name]"
 company: "[Company]"
@@ -10,6 +11,7 @@ priority_signal: "[low | medium | high]"
 status: draft
 last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
+edit_policy: team
 ---
 
 # [Requested capability]

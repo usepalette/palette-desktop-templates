@@ -37,6 +37,7 @@ It captures. Finding the pattern across several sources is [synthesise feedback]
    - An interview goes to `user-feedback/user-interviews/`, from the mold there. Everything else goes to `user-feedback/feedback/`, from `user-feedback/_template.md`.
    - Name it `YYYY-MM-DD_company_person_topic.md`: each field in lowercase kebab-case, underscores only between the fields.
    - Keep `source_url` and `capture_mode`. Exact quotes go under `## Their words`; a summary or a paraphrase never becomes a quote.
+   - Fill `owner` with the person you are working for, unless they name someone else, and stamp `last_updated` and `last_updated_by`. Keep `edit_policy: team` unless the space uses another.
    - Set `status: active` and delete the mold box: the person has seen the capture.
 6. **Handle each explicit ask.** Search `user-feedback/feature-requests/` for the same underlying job. If it exists, add the new source to its `source_files` and update its evidence. If not, create `YYYY-MM-DD_company_topic.md` from the mold in that folder.
 7. **Leave the pattern for later.** Never make a recurring painpoint from one casual comment. Say which pains could be checked with [synthesise feedback](synthesise-feedback.md).

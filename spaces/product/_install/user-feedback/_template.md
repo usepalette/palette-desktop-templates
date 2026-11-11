@@ -1,5 +1,6 @@
 ---
 type: feedback
+owner: "[Owner]"
 date: YYYY-MM-DD
 source: "[chat | interview | email | support | call | other]"
 source_url: "[Permalink, ticket, recording, email reference, or unavailable]"
@@ -12,6 +13,7 @@ sentiment: "[positive | neutral | negative | mixed]"
 status: draft
 last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
+edit_policy: team
 ---
 
 # [Short topic]

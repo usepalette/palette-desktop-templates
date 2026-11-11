@@ -34,7 +34,7 @@ Turns several raw sources into the smallest useful set of painpoints and feature
 6. **Write what was agreed.**
    - Check who can read the destination before customer material goes in. Anonymise names, quotes and links that may not cross to that audience.
    - Respect each file's `edit_policy`: a yes to write is not a yes to edit an `owner-only` file. Ask its owner.
-   - Create or update painpoints and requests from the molds in their folders. Keep `source_files` complete and relative, and the verbatim quotes as they are.
+   - Create or update painpoints and requests from the molds in their folders, with their `owner`, `edit_policy` and stamps filled in like a capture. Keep `source_files` complete and relative, and the verbatim quotes as they are.
    - Update every company profile the change touches.
    - Link discovery, strategy, specs or the tracker only where they exist.
 7. **Rebuild the dashboard** with [rebuild the feedback dashboard](rebuild-feedback-dashboard.md).

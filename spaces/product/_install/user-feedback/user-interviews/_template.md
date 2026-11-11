@@ -1,5 +1,6 @@
 ---
 type: feedback
+owner: "[Owner]"
 date: YYYY-MM-DD
 source: interview
 source_url: "[Recording, transcript, meeting note, or unavailable]"
@@ -11,6 +12,7 @@ sentiment: "[positive | neutral | negative | mixed]"
 status: draft
 last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
+edit_policy: team
 ---
 
 # [Interview topic]

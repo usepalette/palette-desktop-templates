@@ -1,5 +1,6 @@
 ---
 type: painpoint
+owner: "[Owner]"
 date: YYYY-MM-DD
 companies:
   - "[Company]"
@@ -11,6 +12,7 @@ frequency: "[occasional | recurring | blocking]"
 status: draft
 last_updated: YYYY-MM-DD
 last_updated_by: "[Owner]"
+edit_policy: team
 ---
 
 # [The problem, as users would put it]
