@@ -1,5 +1,5 @@
 ---
-title: Design OS
+title: Design
 summary: A design space for your workspace, with the team's principles, settled rules, process, design system and explorations in one folder.
 category: design
 order: 1
@@ -7,13 +7,13 @@ tags: [design, design-system, ui, ux, figma]
 request: "Set up a design space for our team: we design in Figma and in code, the design system is in our app repo, and our design docs are in Notion."
 type: space
 folder: design
-version: 2611091
+version: 2611111
 author: Palette
 license: MIT
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
-# Design OS
+# Design
 
 A design space for your workspace, with the team's principles, settled rules, process, design system and explorations in one folder.
 

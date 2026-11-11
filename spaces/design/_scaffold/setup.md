@@ -1,14 +1,14 @@
-# Setting up Design OS
+# Setting up Design
 
 What the agent does in the session that installs this template. Read it with the template's README.
 
-The app placed Design OS at `spaces/design/`, the design team's home inside the company OS. It holds how the team thinks about design (`principles/`), the calls it has settled (`rules/`), how the work is done (`process/`), what the design system is (`design-system/`), and the team's explorations (`drafts/`). Nothing was placed outside `spaces/design/`.
+The app placed the Design space at `spaces/design/`, the design team's home inside the company OS. It holds how the team thinks about design (`principles/`), the calls it has settled (`rules/`), how the work is done (`process/`), what the design system is (`design-system/`), and the team's explorations (`drafts/`). Nothing was placed outside `spaces/design/`.
 
 It ships as a **first version**: the principles are a first set marked "Not confirmed yet", the process pages are first drafts too, the rule files are empty, and the pages about the team's own setup (`repos.md`, `design-system/`) are marked "Not filled in yet". There is no sample data.
 
 ## What to do
 
-1. **Say what it is.** Tell the person in one or two sentences what Design OS is. Don't read `AGENTS.md` or the README to them.
+1. **Say what it is.** Tell the person in one or two sentences what the Design space is. Don't read `AGENTS.md` or the README to them.
 
 2. **If the install replaced a design space,** the app says so in its message. Say in one line that the earlier `spaces/design/` was replaced and that the checkpoint before the install still holds it. Offer to bring back pages from it, such as its `lessons.md`, `log.md` or rules, and copy them only after a yes. Never copy them without asking.
 
