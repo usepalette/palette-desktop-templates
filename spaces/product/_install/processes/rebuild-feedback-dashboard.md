@@ -55,7 +55,7 @@ Rebuilds the data in `user-feedback/index.html` from the markdown beside it. The
 
    The title is the first `#` heading, or a readable version of the file name. A missing date comes from the file name only when it starts with `YYYY-MM-DD`. Sort the items by date, newest first, then by company and title.
 4. **Build the JSON:** an object with `updated` set to today's date and `items` holding the list. Print it with two-space indentation and valid JSON escaping. Then make it safe to sit inside the page without changing the values it parses to:
-   - replace every literal `<` with `<`, every `>` with `>` and every `&` with `&`
+   - replace every literal `<` with `\u003c`, every `>` with `\u003e` and every `&` with `\u0026`
    - escape U+2028 and U+2029 if the serialiser leaves them literal
 
    Valid JSON is not enough on its own: text from a source that contains `</script>` must never be able to close the data block.
