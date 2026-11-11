@@ -26,7 +26,7 @@ The announcement post for a launch. Tier 2 and 3.
   - A sceptical reader would find it useful, not annoying
   - There is a concrete example or scenario
   - There is one call to action, and it is clear
-  - It passes the self-check in [`playbooks/content.md`](../../playbooks/content.md) → Before it goes out
+  - It passes the self-check in the content playbook, [`playbooks/content.md`](../../playbooks/content.md)
 
 ## Fill in
 

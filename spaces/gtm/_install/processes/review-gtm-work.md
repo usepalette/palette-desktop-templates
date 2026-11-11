@@ -47,7 +47,7 @@ If the answer to all three is no, don't flag it. Never flag a style preference t
 
 Read [`company/brand/voice.md`](../../../company/brand/voice.md) and [`company/brand/messaging.md`](../../../company/brand/messaging.md) first, and the author's `people/<name>/tone-of-voice.md` for anything under a person's name.
 
-- **The voice:** hype or corporate words, words the voice page avoids, vague claims with no specifics, adjectives where a strong verb should be, and feature soup: capabilities where the workflows and the outcomes should be. Run the self-check in [`playbooks/content.md`](../playbooks/content.md) → Before it goes out.
+- **The voice:** hype or corporate words, words the voice page avoids, vague claims with no specifics, adjectives where a strong verb should be, and feature soup: capabilities where the workflows and the outcomes should be. Run the self-check in the content playbook, [`playbooks/content.md`](../playbooks/content.md).
 - **The messaging:** a line that contradicts the positioning, a claim the product can't back (the product's file in [`company/products/`](../../../company/products/README.md) and the proof points say what it can), or the relief before the problem.
 
 For each finding, quote the line of the brand page it breaks.
