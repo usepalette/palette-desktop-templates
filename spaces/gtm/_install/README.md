@@ -82,7 +82,7 @@ When someone explains, pastes or points at how something is done here, it become
 | A format to fill in for a recurring output | template | `templates/<output>.md` |
 | Something the team found out | research | `research/YYYY-MM-DD-<topic>.md` |
 
-Write the file from the mold in that folder, in the words of the people who do the work, and add a row to that folder's `README.md`. Never add principles, steps or rules nobody gave you; a gap stays a gap, marked as an open question at the bottom of the file.
+Write the file from the mold in that folder (for research, follow **Add research** in [`research/README.md`](research/README.md)), in the words of the people who do the work, and add a row to that folder's `README.md`. Never add principles, steps or rules nobody gave you; a gap stays a gap, marked as an open question at the bottom of the file.
 
 ## What lives elsewhere
 
