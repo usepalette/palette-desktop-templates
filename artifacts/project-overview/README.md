@@ -8,7 +8,6 @@ request: "Build the projects overview from Linear, GitHub and Slack: status, mil
 type: artifact
 artifact_kind: page
 version: 2611102
-author: Brian Kyed
 updated: 2026-11-10
 also: [team]
 ---

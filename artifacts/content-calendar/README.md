@@ -8,7 +8,6 @@ request: "Build the content calendar for November from the Notion database, the 
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Silja Hürlimann
 updated: 2026-11-10
 ---
 

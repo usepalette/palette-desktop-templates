@@ -8,7 +8,6 @@ request: "Write this week's release notes for customers from the merged PRs and 
 type: artifact
 artifact_kind: page
 version: 2611103
-author: Kaspar-Jon Dremstrup
 updated: 2026-11-10
 also: [marketing]
 ---

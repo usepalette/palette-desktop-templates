@@ -8,7 +8,6 @@ request: "Show me the team's capacity for next week from the calendar and Linear
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Brian Kyed
 updated: 2026-11-10
 also: [product]
 ---

@@ -94,6 +94,7 @@ A card, a cover and a page each show the category, so a change in one place need
 | Change a category's `hue` or `cover` | Make every cover again whose `category` is that one, and change `data-hue` on their pages. Templates that list it only in `also` keep their own colours. |
 | Remove a category | First move every template whose `category` names it, and remove it from every `also`. |
 | Change `featured.md` | Check the paths exist and are not starters, and that the row has two. |
+| Add, remove or rename a folder or a file of a space | Update `contents` in the space's `README.md`, and the tree under "What lands in the workspace" in its body. |
 | Change the files in `_install/` | Raise `version`, and the stamps that copy it. A change to the card alone, such as `order`, `tags` or `summary`, keeps the version. |
 
 ## A template folder
@@ -114,11 +115,35 @@ A card, a cover and a page each show the category, so a change in one place need
 | `type` | `starter`, `space` or `artifact`. |
 | `artifact_kind` | Artifacts only: `page`, `skill` or `file`. |
 | `folder` | Spaces only: the folder under `spaces/`. |
+| `contents` | Spaces only: the folders and files the space brings. See below. |
 | `category`, `also` | Spaces and artifacts only: where the card shows. |
 | `order`, `tags` | The card's place in its category (1, 2, 3, no gaps, unique in the category), and the words search matches. |
 | `request` | Spaces and artifacts only: what the person would say. The install session starts from it. |
 | `version` | `YYMMDDN`. See below. |
-| `author`, `updated` | Who made it, and the date of the last change. |
+| `updated` | The date of the last change. |
+
+No `author`: the page shows every template as made by Palette.
+
+### `contents`
+
+The detail page of a space shows this list under "What is inside", as written and in this order.
+
+```yaml
+contents:
+  - folder: principles
+    description: How the team thinks about design
+  - file: repos.md
+    description: The repos and design files, and how agents reach them
+```
+
+| Part | Format |
+|---|---|
+| `folder` or `file` | The path of one folder or one file, from `_install/`. An entry has one of the two, never both. |
+| `description` | One line on what it is for, under 80 characters, in sentence case with no full stop. Quote a line that holds a colon. |
+
+- List what a person works with: the folders first, then the files.
+- Leave out the space's own `README.md`, the agent files (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) and `SETUP.md`.
+- An entry with no `description` does not show.
 
 ## Version and stamp
 

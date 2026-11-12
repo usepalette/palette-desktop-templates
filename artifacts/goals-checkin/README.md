@@ -8,7 +8,6 @@ request: "Set up our Q4 goals check-in from the goals page, Linear and HubSpot, 
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Lars Ettrup
 updated: 2026-11-10
 also: [marketing]
 ---

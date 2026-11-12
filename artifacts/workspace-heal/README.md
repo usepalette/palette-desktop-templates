@@ -8,7 +8,6 @@ request: "Check the workspace for broken links, lists that are out of date and p
 type: artifact
 artifact_kind: skill
 version: 2611111
-author: Palette
 updated: 2026-11-11
 ---
 

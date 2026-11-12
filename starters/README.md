@@ -15,7 +15,7 @@ starters/<slug>/
 
 A starter has no `_scaffold/` and no `preview.html`.
 
-**`README.md` frontmatter:** `title`, `summary`, `type: starter`, `order`, `tags`, `version`, `author`, `updated`. A starter has no `category` or `request`.
+**`README.md` frontmatter:** `title`, `summary`, `type: starter`, `order`, `tags`, `version`, `updated`. A starter has no `category` or `request`.
 
 **`_install/`** is the workspace as the person first sees it. It must hold:
 

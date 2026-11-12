@@ -8,8 +8,22 @@ tags: [gtm, sales, marketing, launch, playbooks]
 request: "Set up a go-to-market space for us: our positioning doc and sales deck are in Google Drive, our sales calls are recorded in Gong, and we launch on the blog, on LinkedIn and in our Slack community."
 type: space
 folder: gtm
+contents:
+  - folder: foundations
+    description: The GTM strategy and the sales story
+  - folder: playbooks
+    description: How the team sells, writes and launches
+  - folder: processes
+    description: Reviewing GTM work before it is shared
+  - folder: templates
+    description: "The launch kit: the messaging brief and a format for each piece"
+  - folder: research
+    description: Market research, discovery and competitive deep dives
+  - file: lessons.md
+    description: What to do differently here
+  - file: log.md
+    description: What happened here
 version: 2611111
-author: Palette
 license: MIT
 updated: 2026-11-11
 ---

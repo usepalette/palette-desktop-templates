@@ -8,7 +8,6 @@ request: "Set up the marketing scoreboard from HubSpot and PostHog with our year
 type: artifact
 artifact_kind: page
 version: 2611101
-author: Brian Kyed
 updated: 2026-11-10
 also: [team]
 ---

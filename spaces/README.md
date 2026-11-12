@@ -15,7 +15,7 @@ spaces/<slug>/
     └── setup.md  what the install session does
 ```
 
-**`README.md` frontmatter:** `title`, `summary`, `type: space`, `folder` (the name under `spaces/`), `category`, `also`, `order`, `tags`, `request`, `version`, `author`, `updated`.
+**`README.md` frontmatter:** `title`, `summary`, `type: space`, `folder` (the name under `spaces/`), `contents` (the folders and files the space brings, each with one line on what it is for; the page lists them under "What is inside"), `category`, `also`, `order`, `tags`, `request`, `version`, `updated`.
 
 **`_install/`** follows the shape of a space in Company OS Core:
 
